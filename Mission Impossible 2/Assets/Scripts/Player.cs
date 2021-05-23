@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     // boolean for jumping availability
     private bool canJump = false;
     // reference to try again menu
-    public int nextMenu = 2;
+    public int nextMenu = 1;
 
     void Start()
     {
