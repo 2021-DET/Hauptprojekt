@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Retry.unity
     guid: b945e342fce2d2c4ea2e99e6c1dcad93
   - enabled: 1
-    path: Assets/Scenes/Neu Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: 64e3c7a965f513140be9f0b305bfc99c
   m_configObjects: {}
