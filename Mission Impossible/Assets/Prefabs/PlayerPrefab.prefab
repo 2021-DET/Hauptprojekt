@@ -193,8 +193,6 @@ GameObject:
   - component: {fileID: 8066101385349987152}
   - component: {fileID: 8066101385349987155}
   - component: {fileID: 8066101385349987154}
-  - component: {fileID: 8066101385349987153}
-  - component: {fileID: 8066101385349987156}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -284,34 +282,11 @@ MonoBehaviour:
   rotSpeed: 2
   jumpPush: 5
   extraGravity: -10
---- !u!114 &8066101385349987153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935059090257746173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dece53095412484cb01b47699b38d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 8066101385398317489}
+  nextMenu: 1
+  firePoint: {fileID: 0}
   bulletPrefab: {fileID: 7425482639152404081, guid: 57634e9bc6cb78e40bbba03de1c548e4, type: 3}
+  bulletPrefab2: {fileID: 8661623642064653431, guid: 83db0b62643b9c24b970190e0f7fe4e5, type: 3}
   bulletForce: 20
---- !u!114 &8066101385349987156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935059090257746173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71ada89dfe5a5c341a5dcc0d11630670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextMenu: 2
 --- !u!1 &1935059090257746175
 GameObject:
   m_ObjectHideFlags: 0

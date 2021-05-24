@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: -1537694859990852328}
   - component: {fileID: -68575862046551430}
   - component: {fileID: 2297986556331516261}
+  - component: {fileID: 1443111469701583287}
   m_Layer: 0
   m_Name: MummyPrefab
   m_TagString: Enemy
@@ -193,10 +194,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDead: 0
-  player: {fileID: 1935059090257746173, guid: 105e1bb407a13c24a91f2369b3125e58, type: 3}
   speed: 4.5
   explosionPrototype: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 3}
-  score: {fileID: 0}
+--- !u!114 &1443111469701583287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b33aab8fe77a3f4a947844762b057d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2283716014949742236
 GameObject:
   m_ObjectHideFlags: 0
