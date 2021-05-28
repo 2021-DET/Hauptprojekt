@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 /*
  * Main script for player object
  */
-public class Player : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
     // speed value
     public float speed = 10f;
@@ -43,6 +43,10 @@ public class Player : MonoBehaviour
     private bool canshoot = false;
     // bullet offset
     private Vector3 vecDis = new Vector3(0.8f, 0f, 0f);
+
+    // attributes for ammunition
+    public int ammo = 0;
+    private int maxAmmo = 30;
 
     void Start()
     {
@@ -85,7 +89,13 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Fire2") && (!canshoot))
         {
-            StartCoroutine(BurstShot());
+            if (enoughAmmo())
+            {
+                StartCoroutine(BurstShot());
+            } else
+            {
+                Debug.Log("nicht genug Schuss");
+            }
         }
 
         // death on fall
@@ -165,7 +175,24 @@ public class Player : MonoBehaviour
         // ienum for coroutine and delay
         canshoot = true;
         SalveShoot();
+        ammo -= 3;
         yield return new WaitForSeconds(0.8f); // to stop rapid fire
         canshoot = false;
+    }
+
+    public void addAmmo(int amount)
+    {
+        if ( this.ammo + amount <= maxAmmo)
+        {
+            this.ammo += amount;
+        } else
+        {
+            this.ammo = maxAmmo;
+        }
+    }
+
+    private bool enoughAmmo()
+    {
+        return ammo >= 3;
     }
 }

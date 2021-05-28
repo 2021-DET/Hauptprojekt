@@ -1,0 +1,853 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'de' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55349
+Successfully changed project path to: C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 736.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4054 MB
+    Driver:   27.20.100.8682
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002794 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 206.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.834 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.510 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3174.
+Total: 19.345700 ms (FindLiveObjects: 1.711200 ms CreateObjectMapping: 1.371500 ms MarkObjects: 13.950900 ms  DeleteObjects: 2.306800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f0eddd59b38c945ef962d072b6c5db') in 0.193120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6019.844321 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(105e1bb407a13c24a91f2369b3125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(105e1bb407a13c24a91f2369b3125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafe14480150de7af21bab905abb346f') in 0.881997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.405651 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures
+  artifactKey: Guid(34883f9eb5b0e1f43b4b2dc1e0214eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures using Guid(34883f9eb5b0e1f43b4b2dc1e0214eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529bbb56fdc98721c8fedb27e4bdf93d') in 0.054119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080420 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga
+  artifactKey: Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga using Guid(30fcefff8373d6c4fa567c23ded3a8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8f0af0207946c5a7c50052ca43069') in 0.160586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga
+  artifactKey: Guid(068d77f9f73ef104987a648cf6f9d4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga using Guid(068d77f9f73ef104987a648cf6f9d4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b16d88b056a8374aa09b8406305f627') in 0.114785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_normal1.tga
+  artifactKey: Guid(83d641e9e1882ed4595a61851a816e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_normal1.tga using Guid(83d641e9e1882ed4595a61851a816e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b9bdc9c257b36bb772ece70f84d34f') in 0.094481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_normal.tga
+  artifactKey: Guid(9c557eef648b0ca4485a3381e25f8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_normal.tga using Guid(9c557eef648b0ca4485a3381e25f8bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c56b8cdd3f08f090c34782ae52aba9') in 0.072023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga
+  artifactKey: Guid(99010b201b45a31459cc5d56a3be9a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga using Guid(99010b201b45a31459cc5d56a3be9a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accf6049c5f2e0a542e83cb25764ad4d') in 0.071127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga
+  artifactKey: Guid(73a4e936f33ce7f4a8f7689b6ba9cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga using Guid(73a4e936f33ce7f4a8f7689b6ba9cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db1b67724f0decd19749c248d424603') in 0.083733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga
+  artifactKey: Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga using Guid(2d1c9b8f2f1d5c648b2eb0d8fe677ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c4d1a9b6f78eab4ddcec961b9b59c') in 0.089829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga
+  artifactKey: Guid(aefc0aa532cf2554da4466e9e2d8616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga using Guid(aefc0aa532cf2554da4466e9e2d8616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3c4efa0d597e96fd5d09ea82c894f4') in 0.087591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga
+  artifactKey: Guid(7d122f3d3f4101f4ebe6658139952462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga using Guid(7d122f3d3f4101f4ebe6658139952462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733cf269ffeb1c34293e4d82ccf4e0db') in 0.074838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_metallic.tga
+  artifactKey: Guid(327d0d734219a2446b71b950a67232b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_metallic.tga using Guid(327d0d734219a2446b71b950a67232b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378959145986911dff01087457588efe') in 0.071010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga
+  artifactKey: Guid(f30d8f2e796f36645ba47e6d96aca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga using Guid(f30d8f2e796f36645ba47e6d96aca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03630ba7960d8d3f3fd2871e68afe539') in 0.126110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001296 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_metallic.tga
+  artifactKey: Guid(cb5921ac99413c14d8625d3231c17e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_metallic.tga using Guid(cb5921ac99413c14d8625d3231c17e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08bcc1b044f799ed5b20bcd8ddb1b4f') in 0.114191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_normal2.tga
+  artifactKey: Guid(8fa7f517d37bc5e48bc3a8f889248993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_normal2.tga using Guid(8fa7f517d37bc5e48bc3a8f889248993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9210170cb707b15e1db7ab8930f3e8a') in 0.080488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga
+  artifactKey: Guid(a4249f3354abefe4b8c773a81a76c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga using Guid(a4249f3354abefe4b8c773a81a76c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb931a28bbdcf817356433c6eb83f9f') in 0.090542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga
+  artifactKey: Guid(613785cbe4d6fdd4d9d01ca31c110888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga using Guid(613785cbe4d6fdd4d9d01ca31c110888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60330cad836259cba8bbd3371e690ec') in 0.093398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_normal1.tga
+  artifactKey: Guid(d31ca25eaa121c946b796653b7ad0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_normal1.tga using Guid(d31ca25eaa121c946b796653b7ad0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2460d9e5fd38e58dd8664d91c2ec42') in 0.075223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga
+  artifactKey: Guid(bda533f36e338d24194a292a9dab7445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga using Guid(bda533f36e338d24194a292a9dab7445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd92b020bedaff885dfbcbfb58a094') in 0.084415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga
+  artifactKey: Guid(58e3e1334ad300241b423bf860db81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga using Guid(58e3e1334ad300241b423bf860db81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d19d01ab3ac618489e882a82955b727') in 0.093875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga
+  artifactKey: Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga using Guid(09dce65b88a1be3408ffb5817709b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6840c951ba984d18a0035f2b0daef601') in 0.074726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga
+  artifactKey: Guid(a53a252606e53f6489671364ced88db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga using Guid(a53a252606e53f6489671364ced88db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85d530cfa6b8b7ab6c0e4102e2c81c') in 0.088628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga
+  artifactKey: Guid(a8e146f9ffa5c1f4e97be825f488ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga using Guid(a8e146f9ffa5c1f4e97be825f488ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728116c74d5e8bccd859dba40dd7ee4a') in 0.115564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga
+  artifactKey: Guid(711f2af3abcc42d429f3cc4964d7a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga using Guid(711f2af3abcc42d429f3cc4964d7a447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20d18f7a3bbd4bf78eb0a9f8c79c574') in 0.087676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga
+  artifactKey: Guid(e86d4da85a76d91409a0a13069c862a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga using Guid(e86d4da85a76d91409a0a13069c862a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e722b554ac15f512de980d6e2c0b522') in 0.070391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga
+  artifactKey: Guid(2261687d96aa46d48831349d1bb64fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga using Guid(2261687d96aa46d48831349d1bb64fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06c1fda9bc73d95ce3eb7621f265e79') in 0.083199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_metallic.tga
+  artifactKey: Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet4_metallic.tga using Guid(9ad56495adf899c47b8cb7ec44ad63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae25623455e2875b87b9137d28a840a') in 0.080896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_normal.tga
+  artifactKey: Guid(6bf8a5720228ccc4280b59b7c7eec833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_normal.tga using Guid(6bf8a5720228ccc4280b59b7c7eec833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018ffc94d91c327824e115dabbdff765') in 0.073789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga
+  artifactKey: Guid(7a691c039fd73de44b0ee1a28b782307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga using Guid(7a691c039fd73de44b0ee1a28b782307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde0927233c27c335cd362a846b60226') in 0.052632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga
+  artifactKey: Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga using Guid(5e77b9cc11a2af0478cd1f89f680e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ce05d034b0c6deb3324c3d0408eb8') in 0.071515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga
+  artifactKey: Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga using Guid(8ec575a0a13c31c4c86119ed8c930b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2116a520d4ecf4f1b1b683a7a56ae251') in 0.055400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Prefabs/Bullet8.prefab
+  artifactKey: Guid(3b79e6f8a415f7841a8a55733c4683cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Prefabs/Bullet8.prefab using Guid(3b79e6f8a415f7841a8a55733c4683cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc129340ac441ab321924ea651536fa2') in 0.136884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga
+  artifactKey: Guid(49cfe39cc0a83564e9119afea7655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga using Guid(49cfe39cc0a83564e9119afea7655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bff05917d689023227f487fe73de9') in 0.131661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_normal.tga
+  artifactKey: Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet6_normal.tga using Guid(825b671eae0d1f448a50a3b4328e8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15067fa3f43862a1eebe1398da316923') in 0.073021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga
+  artifactKey: Guid(7f126e67c1cfb8b43962f35fd1fadc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga using Guid(7f126e67c1cfb8b43962f35fd1fadc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836a15b5e0943bbf7cba46da2208985a') in 0.087640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_metallic.tga
+  artifactKey: Guid(40fea0bad5f94ce4fa85947631f7e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Textures/Bullet1_metallic.tga using Guid(40fea0bad5f94ce4fa85947631f7e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170afc9ee7aa83fdc5d5a222522e17e7') in 0.107964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.558620 seconds.
+  path: Assets/AssetStore/amusedART/Mummy_Mon
+  artifactKey: Guid(502223a1baa635145a0c8966aaf462bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/amusedART/Mummy_Mon using Guid(502223a1baa635145a0c8966aaf462bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334ddb2935a33853d63e528e20425c39') in 0.027639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041655 seconds.
+  path: Assets/AssetStore/amusedART/Mummy_Mon/Mummy_Mon.FBX
+  artifactKey: Guid(3353e4f866c39d043a315b41717c9bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/amusedART/Mummy_Mon/Mummy_Mon.FBX using Guid(3353e4f866c39d043a315b41717c9bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5af3bdf553fe0d02fc0e0f12fc9e849') in 0.664917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.245205 seconds.
+  path: Assets/AssetStore/amusedART/Mummy_Mon/Scene
+  artifactKey: Guid(308552e5f79803d41937af3b9e269bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/amusedART/Mummy_Mon/Scene using Guid(308552e5f79803d41937af3b9e269bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13e6e590f1e236cd9c26793575a9e45') in 0.026453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.342418 seconds.
+  path: Assets/AssetStore/JMO Assets/WarFX
+  artifactKey: Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JMO Assets/WarFX using Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a07ad61ae2abb99ac81d6e8f66f0f05') in 0.024043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.848138 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Scenes
+  artifactKey: Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Scenes using Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b145789e238c8a032d547d4fb7bae44d') in 0.023759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550906 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Artwork
+  artifactKey: Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Artwork using Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510e985a1786ea14f7487a5a62dda2a5') in 0.027469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.086755 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Artwork/sprites
+  artifactKey: Guid(7abb9878f76254869a9b13568f59ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/sprites using Guid(7abb9878f76254869a9b13568f59ba3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170513b42a9142d148d7721f06f6efe9') in 0.025280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321855 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment
+  artifactKey: Guid(100acaa2162c04f3c80ed7ec436e4f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment using Guid(100acaa2162c04f3c80ed7ec436e4f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a274c30fdedf5d4b556c11dc04fa6') in 0.033343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075091 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png using Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2644a0c195448c5e330c8678c511c61e') in 2.456686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001771 seconds.
+  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset.png
+  artifactKey: Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset.png using Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ecd0a0fd3e22b9952c2140a4ec731') in 0.101486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.384802 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo
+  artifactKey: Guid(73fd52885a744d5419ec9a59636c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo using Guid(73fd52885a744d5419ec9a59636c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c97805aef590151fc9dbb48f28a5ca') in 0.050900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.188499 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation
+  artifactKey: Guid(0ea352ffa70bbfb46993c5a4df00d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation using Guid(0ea352ffa70bbfb46993c5a4df00d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330e9be17e3be083c33c4fcb7c14d41f') in 0.026302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082421 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX
+  artifactKey: Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_A.FBX using Guid(f76657dd6f742dd4087218090ad1148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa6753011c5ff5bb6ec74d30118a870') in 0.028028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run_rm.FBX
+  artifactKey: Guid(c0048537d6cf8f048b3f020cc6f2a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run_rm.FBX using Guid(c0048537d6cf8f048b3f020cc6f2a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e515c0b9e7cd149605d0f674b9cf9db') in 0.079592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_B.FBX
+  artifactKey: Guid(e3caf38ba16a77949bc98ff31b5bd67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_idle_B.FBX using Guid(e3caf38ba16a77949bc98ff31b5bd67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720a62609b18444eba48a4117b1738a4') in 0.083831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX
+  artifactKey: Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot_burst.FBX using Guid(687cb842871188646890b29f6e3b80b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01705d5adda56c7eb56e12f4956369ab') in 0.106379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot.FBX
+  artifactKey: Guid(80ab5b1ef45fca4489c63ad4e31b41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_shoot.FBX using Guid(80ab5b1ef45fca4489c63ad4e31b41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24038317fa68e47cb51a2b1838cd6321') in 0.056705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX
+  artifactKey: Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/animation/m_weapon_run.FBX using Guid(5af874656ec2e434b80f9647d65942a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf3d430cae9cfa750d911cc9a97e704') in 0.034606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.030736 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX
+  artifactKey: Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/model/TT_Soldiers_Demo.FBX using Guid(7b36a186c6950424394704a9292a7114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69289d8fd0a5581a2ffe9e7abf77bde') in 0.076631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402218 seconds.
+  path: Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/prefab/TT_Soldiers_Demo.prefab
+  artifactKey: Guid(5bf81c1e7c3fa764c9ad1ad61f333094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ToonyTinyPeople/TT_soldiers_Demo/prefab/TT_Soldiers_Demo.prefab using Guid(5bf81c1e7c3fa764c9ad1ad61f333094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4f92ad4133e30cf48c91c000cd780e') in 0.050981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 878.093191 seconds.
+  path: Assets/Prefabs/BulletSpray 1.prefab
+  artifactKey: Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletSpray 1.prefab using Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e24ae3df4f08aa8581193bff4dee0') in 0.102038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.186233 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd038ed3ffe7fdcfe43e90dcaf4373162') in 0.107290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.678501 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a62f221e9b05d7ef5e76ccfbce47ca') in 0.042687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.675562 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd5989d861ffe5d628fda4357b4a47a') in 0.071734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.213670 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(f17e664e8d4ec2248b60f3a2dba43070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3e6d5c970d3184be5f828b166141db') in 0.052944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.327780 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations
+  artifactKey: Guid(7a183f4e3eb465544838e6d6882f8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations using Guid(7a183f4e3eb465544838e6d6882f8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075f19bb42a69ee338a8bacd0eed472') in 0.019670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109453 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet1_animations.FBX
+  artifactKey: Guid(44c4e7f330952134eae5e89e9caf1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet1_animations.FBX using Guid(44c4e7f330952134eae5e89e9caf1fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4dd32e0e0f24bd6e56ef8994eeeec0') in 0.073360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet2_animations.FBX
+  artifactKey: Guid(5633705dc90ee46448834efc7f8fda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet2_animations.FBX using Guid(5633705dc90ee46448834efc7f8fda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440bd62d1518cbfcbd26af3164a3b875') in 0.085681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet3_animations.FBX
+  artifactKey: Guid(b8cd940793484aa4bbde01c75a30bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet3_animations.FBX using Guid(b8cd940793484aa4bbde01c75a30bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67de39d4a928f507554d32485ef4fdfd') in 0.142617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet7_animations.FBX
+  artifactKey: Guid(880ece80a80e24247acbf7051251de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet7_animations.FBX using Guid(880ece80a80e24247acbf7051251de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d0262d84d67d8bea9719bad52bc3eb') in 0.116543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet5_animations.FBX
+  artifactKey: Guid(02314cf010f95eb459adce42bbb8987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet5_animations.FBX using Guid(02314cf010f95eb459adce42bbb8987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166c490581454c5338877b96daaef62') in 0.092671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet4_animations.FBX
+  artifactKey: Guid(8f267c898b432c849899dbab0300f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet4_animations.FBX using Guid(8f267c898b432c849899dbab0300f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd398d4a75ab9d83ec2aba04236418240') in 0.081863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet8_animations.FBX
+  artifactKey: Guid(e871e009dcc1a0142b9c5e480d6e021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet8_animations.FBX using Guid(e871e009dcc1a0142b9c5e480d6e021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248de0d4f5dbb46cf5ee03b9e711e1de') in 0.121071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet6_animations.FBX
+  artifactKey: Guid(ab7e4f873f1725f4ca4a4f629d85d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet6_animations.FBX using Guid(ab7e4f873f1725f4ca4a4f629d85d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2798a5984a25fa7d5011357ccc8361f') in 0.128826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.275582 seconds.
+  path: Assets/Prefabs/BulletSpray 1.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletSpray 1.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6b47d9774636468c6c7fe935dd00ec') in 0.063226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.912598 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1339cec383f4627adf1e081d65e4ff91') in 0.055514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.123471 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85f2c30546729474e0acad0723bc94b') in 0.048555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.596459 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f746da8ea4cd8a5f82124d417079cde') in 0.075009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.755220 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce4bc7db05d9e7ba42a207eb865895') in 0.048091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.412898 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3dd88584cbb12c6e9ef96f04fa778a') in 0.047702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.085105 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7ffb5a57941a9b699d7eb0badce40e') in 0.123821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.623320 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa779544e1c19751f496d5e1347d08a') in 0.086193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600004 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b839cde5d3570cf25b5d99ac7b9b2b31') in 0.062627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425625 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71d9ac82cb527938de95e5c0b9a0007') in 0.096425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.258323 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba9cb952e009f80bf8554073753ca0d') in 0.059409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.069454 seconds.
+  path: Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller
+  artifactKey: Guid(0a09be0893b1ec041891d432f2caeda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller using Guid(0a09be0893b1ec041891d432f2caeda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c81ad69897091eb0c5ff5f337d1fde8') in 0.031867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.786111 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44b64f9ec959c0909f3fdfba32be2e') in 0.064054 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003856 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.363 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.6 MB.
+System memory in use after: 171.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3754.
+Total: 5.775600 ms (FindLiveObjects: 0.710000 ms CreateObjectMapping: 0.439500 ms MarkObjects: 4.561700 ms  DeleteObjects: 0.062200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.707482 seconds.
+  path: Assets/Scripts/AmmunitionScript.cs
+  artifactKey: Guid(3873c770286cf7c43ba57b8b157c5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmunitionScript.cs using Guid(3873c770286cf7c43ba57b8b157c5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903202261010344280fcdb6fefe9f277') in 0.022738 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3757.
+Total: 10.573100 ms (FindLiveObjects: 2.012200 ms CreateObjectMapping: 0.472500 ms MarkObjects: 7.631300 ms  DeleteObjects: 0.454100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.198915 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e24ebee20c191cdc7bee5236862bcf') in 0.210903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.425761 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b86c4f10f1ab166506effdcf210c9fd') in 0.086460 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.767 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 170.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3761.
+Total: 5.729800 ms (FindLiveObjects: 0.654200 ms CreateObjectMapping: 0.543000 ms MarkObjects: 4.487300 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3349.183647 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001377c05b7228021f7e755a46a82797') in 0.040333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.903137 seconds.
+  path: Assets/Scripts/PlayerScript.cs
+  artifactKey: Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript.cs using Guid(eb9573960ba3e8840a0f9ea1222bb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4ef3ed7561329513ab69ce9587c349') in 0.028152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2822.204313 seconds.
+  path: Assets/Scripts/AmmunitionScript.cs
+  artifactKey: Guid(3873c770286cf7c43ba57b8b157c5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmunitionScript.cs using Guid(3873c770286cf7c43ba57b8b157c5e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975e9c1c425658bf42c20d79ef1b2687') in 0.023229 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003079 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 170.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 3.053800 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.271900 ms MarkObjects: 2.335400 ms  DeleteObjects: 0.022100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 170.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3767.
+Total: 2.759500 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.232400 ms MarkObjects: 2.108900 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.278158 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8163cb4e59456ff444a90312f03a4f7a') in 0.149664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(105e1bb407a13c24a91f2369b3125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(105e1bb407a13c24a91f2369b3125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f22085e89221cd7d23be0c483ba4c2') in 0.109720 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 171.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3771.
+Total: 4.113500 ms (FindLiveObjects: 0.509600 ms CreateObjectMapping: 0.252300 ms MarkObjects: 3.326900 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.707708 seconds.
+  path: Assets/Prefabs/Ammunition.prefab
+  artifactKey: Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammunition.prefab using Guid(0afc8bbf8695162499856c947398c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff640e84a0a5c8d52228953c96b21db') in 0.091422 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.478 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 171.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3775.
+Total: 9.667100 ms (FindLiveObjects: 1.594200 ms CreateObjectMapping: 1.231500 ms MarkObjects: 6.734700 ms  DeleteObjects: 0.096700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003694 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.414 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.9 MB.
+System memory in use after: 171.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3778.
+Total: 8.283700 ms (FindLiveObjects: 1.116600 ms CreateObjectMapping: 0.564200 ms MarkObjects: 6.535400 ms  DeleteObjects: 0.062300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.294 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.8 MB.
+System memory in use after: 171.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3781.
+Total: 4.122100 ms (FindLiveObjects: 0.462000 ms CreateObjectMapping: 0.229800 ms MarkObjects: 3.389000 ms  DeleteObjects: 0.039400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
