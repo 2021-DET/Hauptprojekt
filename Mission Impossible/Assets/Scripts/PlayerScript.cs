@@ -166,6 +166,7 @@ public class PlayerScript : MonoBehaviour
         // ienum for coroutine and delay
         canshoot = true;
         Shoot();
+        anim.SetTrigger("gunShot");
         yield return new WaitForSeconds(0.5f); // to stop rapid fire
         canshoot = false;
     }
