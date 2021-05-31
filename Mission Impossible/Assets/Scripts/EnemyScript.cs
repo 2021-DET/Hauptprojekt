@@ -8,7 +8,7 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     // public boolean for the status of the enemy
-    public bool isDead = false;
+    public int health = 1;
     // reference to the player
     GameObject player;
     // speed value
@@ -35,7 +35,7 @@ public class EnemyScript : MonoBehaviour
     void Update()
     {
         // boolean can be set by other scripts
-        if (isDead == true)
+        if (health == 0)
         {
             // generate explosion
             Instantiate (explosionPrototype , transform.position , transform.rotation);
@@ -50,7 +50,7 @@ public class EnemyScript : MonoBehaviour
 
         // debug
         if (player == null) 
-        { Debug.Log("[ERROR] => Traget object is null , Can't Rotate"); 
+        { Debug.Log("[ERROR] => Target object is null , Can't Rotate"); 
             return; } 
 
         // get position of player
