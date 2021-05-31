@@ -218,7 +218,7 @@ MonoBehaviour:
     count: 4
     rate: 2
   - name: Big Wave
-    enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
+    enemy: {fileID: 7904214848812866224, guid: 91da8f86b4d82274bbc3016afbad259a, type: 3}
     count: 6
     rate: 1
   - name: Biggest Wafe
@@ -686,6 +686,10 @@ PrefabInstance:
     - target: {fileID: 3254816993735236667, guid: 0afc8bbf8695162499856c947398c255, type: 3}
       propertyPath: m_Name
       value: Ammunition
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763933268393419757, guid: 0afc8bbf8695162499856c947398c255, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0afc8bbf8695162499856c947398c255, type: 3}
