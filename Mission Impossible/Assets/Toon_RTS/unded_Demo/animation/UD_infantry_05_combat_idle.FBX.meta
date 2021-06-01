@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f80f9eeaf5956784c9c6b43c857ce74e
+guid: 1fc39c37ef49990448d906d00f43bac2
 timeCreated: 1500146992
 licenseType: Store
 ModelImporter:
@@ -49,7 +49,7 @@ ModelImporter:
     400038: Bip001 R UpperArm
     400040: Bip001 Spine
     400042: //RootNode
-    7400000: UD_infantry_06_combat_walk
+    7400000: UD_infantry_05_combat_idle
     9500000: //RootNode
   materials:
     importMaterials: 0
@@ -73,10 +73,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: UD_infantry_06_combat_walk
+      name: UD_infantry_05_combat_idle
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

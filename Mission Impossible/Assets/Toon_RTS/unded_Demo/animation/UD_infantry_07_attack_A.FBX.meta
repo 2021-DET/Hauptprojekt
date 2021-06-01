@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f80f9eeaf5956784c9c6b43c857ce74e
+guid: 3040a0cf02d17f341a7e266ca6d5f002
 timeCreated: 1500146992
 licenseType: Store
 ModelImporter:
@@ -27,6 +27,20 @@ ModelImporter:
     100038: Bip001 R UpperArm
     100040: Bip001 Spine
     100042: //RootNode
+    100044: Bip001 Footsteps
+    100046: Bip001 HeadNub
+    100048: Bip001 L Toe0Nub
+    100050: Bip001 R Toe0Nub
+    100052: shield_B
+    100054: UD_arms_B
+    100056: UD_body_A
+    100058: UD_body_C
+    100060: UD_head_A
+    100062: UD_legs_A
+    100064: UD_legs_B
+    100066: UD_shoulderpads_B
+    100068: weapon_axe_A
+    100070: weapon_spear
     400000: Bip001
     400002: Bip001 Head
     400004: Bip001 L Calf
@@ -49,8 +63,45 @@ ModelImporter:
     400038: Bip001 R UpperArm
     400040: Bip001 Spine
     400042: //RootNode
-    7400000: UD_infantry_06_combat_walk
+    400044: Bip001 Footsteps
+    400046: Bip001 HeadNub
+    400048: Bip001 L Toe0Nub
+    400050: Bip001 R Toe0Nub
+    400052: shield_B
+    400054: UD_arms_B
+    400056: UD_body_A
+    400058: UD_body_C
+    400060: UD_head_A
+    400062: UD_legs_A
+    400064: UD_legs_B
+    400066: UD_shoulderpads_B
+    400068: weapon_axe_A
+    400070: weapon_spear
+    2300000: shield_B
+    2300002: weapon_axe_A
+    2300004: weapon_spear
+    3300000: shield_B
+    3300002: weapon_axe_A
+    3300004: weapon_spear
+    4300000: shield_B
+    4300002: weapon_axe_A
+    4300004: weapon_spear
+    4300006: UD_body_C
+    4300008: UD_head_A
+    4300010: UD_body_A
+    4300012: UD_shoulderpads_B
+    4300014: UD_arms_B
+    4300016: UD_legs_B
+    4300018: UD_legs_A
+    7400000: UD_infantry_07_attack_A
     9500000: //RootNode
+    13700000: UD_arms_B
+    13700002: UD_body_A
+    13700004: UD_body_C
+    13700006: UD_head_A
+    13700008: UD_legs_A
+    13700010: UD_legs_B
+    13700012: UD_shoulderpads_B
   materials:
     importMaterials: 0
     materialName: 0
@@ -73,17 +124,17 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: UD_infantry_06_combat_walk
+      name: UD_infantry_07_attack_A
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
