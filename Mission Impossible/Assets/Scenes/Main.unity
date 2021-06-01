@@ -213,14 +213,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - name: Default Wave
-    enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
-    count: 4
-    rate: 2
   - name: Big Wave
     enemy: {fileID: 7904214848812866224, guid: 91da8f86b4d82274bbc3016afbad259a, type: 3}
     count: 6
     rate: 1
+  - name: Default Wave
+    enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
+    count: 4
+    rate: 2
   - name: Biggest Wafe
     enemy: {fileID: 2283716014949837498, guid: 2e4af1696a8feed43b88d98b71b65a43, type: 3}
     count: 8
