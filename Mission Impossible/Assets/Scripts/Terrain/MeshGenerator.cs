@@ -38,6 +38,8 @@ public class MeshGenerator : MonoBehaviour
 
                 float y = Mathf.PerlinNoise( x * .3f , z * .3f) * 2f;
                 vertices[i] = new Vector3(x , y , z);
+
+
                 i++;
             }
         }
@@ -66,6 +68,7 @@ public class MeshGenerator : MonoBehaviour
             vert++;
         
         }
+
 
         
     }
