@@ -1,24 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 /**
  * Script to organize the state of the game, score etc.
  **/
 public class GameStateScript : MonoBehaviour
 {
-    public int killScore = 0;
-    public int bonusScore = 0;
+    GameObject player;
+    // current score
+    //public int scoreValue = 0;
+    // text in UI for score
+    public TextMeshProUGUI scoreValue;
+    public TextMeshProUGUI goldValue;
+    public TextMeshProUGUI ammoValue;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player") as GameObject;
+        // initialize
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // update text to score value
+        scoreValue.text = "Score: " + player.GetComponent<PlayerScript>().score.ToString();
+        goldValue.text = "Gold: " + player.GetComponent<PlayerScript>().gold.ToString();
+        ammoValue.text = "Salve Shots: " + player.GetComponent<PlayerScript>().ammo.ToString() + "/" + player.GetComponent<PlayerScript>().maxAmmo.ToString();
     }
 }

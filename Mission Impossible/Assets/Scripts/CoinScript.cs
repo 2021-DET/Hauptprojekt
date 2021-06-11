@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-    public int value = 1;
+    public int value = 5;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerEnter(Collider col)
     {
-        
-    }
+        // if player hits coins
+        if (col.gameObject.tag == "Player")
+        {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+                // increase score value
+                //score.GetComponent<ScoreScript>().scoreValue++;
+                col.gameObject.GetComponent<PlayerScript>().gold += value;
+            Destroy(gameObject);
+        }
     }
-
     //TODO: bei Spielerberührung zerstören, Punkte geben
 }
