@@ -27,7 +27,7 @@ public class EnemyScript : MonoBehaviour
         // initialize
         rb = this.GetComponent<Rigidbody>();
         // find the game object for the UI
-        score = GameObject.FindGameObjectWithTag("Canvas") as GameObject;
+        //score = GameObject.FindGameObjectWithTag("Canvas") as GameObject;
         // find the player game object
         player = GameObject.FindGameObjectWithTag("Player") as GameObject;
     }
@@ -39,10 +39,11 @@ public class EnemyScript : MonoBehaviour
         {
             // generate explosion
             Instantiate (explosionPrototype , transform.position , transform.rotation);
-            if (score != null)
+            if (player != null)
             {
                 // increase score value
-                score.GetComponent<ScoreScript>().scoreValue++; 
+                //score.GetComponent<ScoreScript>().scoreValue++;
+                player.GetComponent<PlayerScript>().score++;
             }
             // delete the enemy game object immediately
             Destroy(this.gameObject, 0f);

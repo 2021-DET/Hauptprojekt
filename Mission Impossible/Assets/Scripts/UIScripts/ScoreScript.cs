@@ -8,13 +8,15 @@ using TMPro;
  */
 public class ScoreScript : MonoBehaviour
 {
+    GameObject player;
     // current score
-    public int scoreValue = 0;
+    //public int scoreValue = 0;
     // text in UI for score
     TextMeshProUGUI score;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player") as GameObject;
         // initialize
         score = gameObject.GetComponent<TextMeshProUGUI>();
     }
@@ -22,6 +24,6 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         // update text to score value
-        score.text = "Score: " + scoreValue.ToString();
+        score.text = "Score: " + player.GetComponent<PlayerScript>().score.ToString();
     }
 }

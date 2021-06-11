@@ -16,13 +16,14 @@ public class AmmunitionScript : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider col)
     {
-        // if player hits an enemy
-        if (collision.collider.tag == "Player")
+        // if player hits an ammunition pack
+        if (col.gameObject.tag == "Player")
         {
-            PlayerScript ps = collision.transform.GetComponent<PlayerScript>();
+            PlayerScript ps = col.transform.GetComponent<PlayerScript>();
             ps.addAmmo(10);
+            Destroy(gameObject);
         }
     }
 }

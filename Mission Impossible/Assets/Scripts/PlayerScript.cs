@@ -8,8 +8,10 @@ using UnityEngine.SceneManagement;
  */
 public class PlayerScript : MonoBehaviour
 {
+    public int score = 0;
+    public int gold = 0;
     // speed value
-    public float speed = 10f;
+    public float speed = 6f;
     // rotation value
     public float rotSpeed = 1f;
     // jump value
@@ -19,6 +21,7 @@ public class PlayerScript : MonoBehaviour
     // vector for movement
     private Vector3 moveVector;
     // vector for rotation
+    public Transform camTransform;
     private Vector3 rotVector;
     // rigidbody reference
     private Rigidbody rd;
@@ -43,40 +46,60 @@ public class PlayerScript : MonoBehaviour
     private bool canshoot = false;
     // bullet offset
     private Vector3 vecDis = new Vector3(0.8f, 0f, 0f);
+    float turnSmoothVelocity;
+    public float turnSmoothTime = 0.1f;
+    //public CharacterController controller;
 
     // attributes for ammunition
     public int ammo = 0;
-    private int maxAmmo = 30;
+    public int maxAmmo = 30;
 
     void Start()
     {
+        //controller = GetComponent<CharacterController>();
         // initiate
         rd = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void Update()
     {
-            // animator code
-            if(Input.GetAxis("Vertical") != 0)
-            {
-                anim.SetInteger("Anim" , 1);
-            }
-            else
-            {
-                anim.SetInteger("Anim" , 0);
-            }
-            // reference to input values
-            float xDir = Input.GetAxis("Vertical") * speed * Time.deltaTime ;
-            float yDir = Input.GetAxis("Horizontal") * rotSpeed  ;
-            // set vector objects
-            moveVector = new Vector3 ( 0 , 0 , xDir );
-            rotVector   = new Vector3(0 , yDir , 0);
-            // apply new vectors
-            transform.Rotate(rotVector);
+        float mouseX = Input.GetAxisRaw("Mouse X");
+        float mouseY = Input.GetAxisRaw("Mouse Y");
+        mouseY = Mathf.Clamp(mouseY, -35, 60);
+        rotVector = new Vector3(mouseY, mouseX, 0f) * rotSpeed;
+        //camTransform.Rotate(rotVector);
+        transform.Rotate(new Vector3(0f, rotVector.y, 0f));
+       
+        // animator code
+        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        {
+            anim.SetInteger("Anim" , 1);
+            float xDir = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+            float yDir = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+            moveVector = new Vector3(xDir, 0, yDir);
             transform.Translate(moveVector);
-            // jump call
-            if (Input.GetButtonDown("Jump") && !(canJump))
+
+            /**
+            moveVector = new Vector3(xDir, 0, yDir).normalized;
+            float targetAngle = Mathf.Atan2(moveVector.x, moveVector.z) * Mathf.Rad2Deg + rotVector.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * moveVector;
+            transform.Translate(moveDir.normalized * speed * Time.deltaTime);
+            **/
+        
+            //TODO: Höhe und Tiefe von Kamera einschränken
+        }
+        else
+        {
+            anim.SetInteger("Anim" , 0);
+        }
+
+        // jump call
+        if (Input.GetButtonDown("Jump") && !(canJump))
             {
                 StartCoroutine( Jumping());
             }
@@ -100,9 +123,10 @@ public class PlayerScript : MonoBehaviour
 
         // death on fall
         if (gameObject.transform.position.y <= -5f)
-            {
-                SceneManager.LoadScene(nextMenu);
-            }
+        {
+            Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene(nextMenu);
+        }
     }
 
     // jump method 
@@ -129,6 +153,7 @@ public class PlayerScript : MonoBehaviour
         if (collision.collider.tag == "Enemy")
         {
             // load menu for a new game
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(nextMenu);
         }
     }
@@ -165,8 +190,8 @@ public class PlayerScript : MonoBehaviour
     {
         // ienum for coroutine and delay
         canshoot = true;
-        Shoot();
         anim.SetTrigger("gunShot");
+        Shoot();
         yield return new WaitForSeconds(0.5f); // to stop rapid fire
         canshoot = false;
     }
@@ -175,6 +200,7 @@ public class PlayerScript : MonoBehaviour
     {
         // ienum for coroutine and delay
         canshoot = true;
+        anim.SetTrigger("gunShot");
         SalveShoot();
         ammo -= 3;
         yield return new WaitForSeconds(0.8f); // to stop rapid fire
