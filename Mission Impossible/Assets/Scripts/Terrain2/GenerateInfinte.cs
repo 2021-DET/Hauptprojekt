@@ -22,8 +22,8 @@ public class GenerateInfinte : MonoBehaviour
     public GameObject player;
 
     int planeSize = 10;
-    int halfTilesX = 10;
-    int halfTilesZ = 10;
+    int halfTilesX = 4;
+    int halfTilesZ = 4;
     // one half of each tile
 
     Vector3 startPos;
