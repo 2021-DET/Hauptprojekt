@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// own class Tile
 class Tile
 {
     public GameObject theTile;
@@ -23,6 +24,7 @@ public class GenerateInfinte : MonoBehaviour
     int planeSize = 10;
     int halfTilesX = 10;
     int halfTilesZ = 10;
+    // one half of each tile
 
     Vector3 startPos;
 
@@ -32,9 +34,11 @@ public class GenerateInfinte : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // in the center of the scene
          this.gameObject.transform.position = Vector3.zero;
          startPos = Vector3.zero;
 
+        // timer
          float updateTime = Time.realtimeSinceStartup;
 
          for (int x = -halfTilesX; x < halfTilesX; x++)
@@ -53,7 +57,7 @@ public class GenerateInfinte : MonoBehaviour
          }
     }
 
-    /*void Update()
+    void Update()
     {
         int xMove = (int)(player.transform.position.x - startPos.x);
         int zMove = (int)(player.transform.position.z - startPos.z);
@@ -103,5 +107,5 @@ public class GenerateInfinte : MonoBehaviour
 
             startPos = player.transform.position;
         }
-    }*/
+    }
 }
