@@ -13,10 +13,11 @@ public class CoinScript : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
 
-                // increase score value
-                //score.GetComponent<ScoreScript>().scoreValue++;
-                col.gameObject.GetComponent<PlayerScript>().gold += value;
-            Destroy(gameObject);
+            // increase score value
+            //score.GetComponent<ScoreScript>().scoreValue++;
+            col.gameObject.GetComponent<PlayerScript>().gold += value;
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
     //TODO: bei Spielerberührung zerstören, Punkte geben
