@@ -8,7 +8,7 @@ public class GenerateTerrain : MonoBehaviour
     int heightScale = 6;
     float detailScale = 7.5f;
 
-    List<GameObject> myCoins = new List<GameObject>();
+    List<GameObject> items = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,46 @@ public class GenerateTerrain : MonoBehaviour
                                                   vertices[v].z + this.transform.position.z);
                     newCoin.transform.position = coinPos;
                     newCoin.SetActive(true);
-                    myCoins.Add(newCoin);
+                    items.Add(newCoin);
+                }
+            }
+            if (vertices[v].y > 2 && Random.Range(1,100) < 2)
+            {
+                GameObject newTree = PoolTree.getTree();
+                if (newTree != null)
+                {
+                    Vector3 TreePos = new Vector3(vertices[v].x + this.transform.position.x,
+                                                  vertices[v].y,
+                                                  vertices[v].z + this.transform.position.z);
+                    newTree.transform.position = TreePos;
+                    newTree.SetActive(true);
+                    items.Add(newTree);
+                }
+            }
+            if (vertices[v].y > 2 && Random.Range(1,100) < 2)
+            {
+                GameObject newRock = PoolRock.getRock();
+                if (newRock != null)
+                {
+                    Vector3 RockPos = new Vector3(vertices[v].x + this.transform.position.x,
+                                                  vertices[v].y,
+                                                  vertices[v].z + this.transform.position.z);
+                    newRock.transform.position = RockPos;
+                    newRock.SetActive(true);
+                    items.Add(newRock);
+                }
+            }
+            if (vertices[v].y > 2 && Random.Range(1,100) < 2)
+            {
+                GameObject newTreeStump = PoolTreeStump.getTreeStump();
+                if (newTreeStump != null)
+                {
+                    Vector3 TreeStumpPos = new Vector3(vertices[v].x + this.transform.position.x,
+                                                  vertices[v].y,
+                                                  vertices[v].z + this.transform.position.z);
+                    newTreeStump.transform.position = TreeStumpPos;
+                    newTreeStump.SetActive(true);
+                    items.Add(newTreeStump);
                 }
             }
         }
@@ -43,12 +82,12 @@ public class GenerateTerrain : MonoBehaviour
 
     private void OnDestroy()
     {
-        for(int i = 0; i < myCoins.Count; i++)
+        for(int i = 0; i < items.Count; i++)
         {
-            if (myCoins[i] != null)
-                myCoins[i].SetActive(false);
+            if (items[i] != null)
+                items[i].SetActive(false);
         }
-        myCoins.Clear();
+        items.Clear();
     }
 
     // Update is called once per frame
