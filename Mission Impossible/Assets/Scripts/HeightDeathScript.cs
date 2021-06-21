@@ -12,9 +12,9 @@ public class HeightDeathScript : MonoBehaviour
     void Update()
     {
         // below ground level
-        if (gameObject.transform.position.y <= -5f)
+        if (gameObject.transform.position.y <= -6f)
         {
-            Destroy(gameObject, 0f); // delete game objecct
+            gameObject.SetActive(false); // delete game objecct
         }
     }
 }

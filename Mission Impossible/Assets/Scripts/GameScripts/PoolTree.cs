@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PoolTree : MonoBehaviour
 {
-    public static int num = 75;
+    public static int num = 100;
     public GameObject prefab;
     static GameObject[] items;
 
