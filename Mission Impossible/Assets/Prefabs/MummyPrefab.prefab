@@ -177,10 +177,10 @@ BoxCollider:
   m_GameObject: {fileID: 2283716014949742234}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.85186917, y: 1.080981, z: 0.81047165}
-  m_Center: {x: 0.0024187267, y: 0.54920197, z: 0.08283137}
+  m_Size: {x: 0.70121753, y: 1.0507195, z: 0.7417754}
+  m_Center: {x: -0.0144818425, y: 0.5340712, z: 0.08437687}
 --- !u!114 &2297986556331516261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,9 +193,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a438b8cfec76675479307c32dd3318a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDead: 0
-  speed: 4.5
+  health: 1
+  speed: 4
   explosionPrototype: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 3}
+  vision: 15
 --- !u!114 &1443111469701583287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,6 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2283716014949837510}
+  - component: {fileID: 4726915539693825412}
   m_Layer: 0
   m_Name: Bip001 Spine1
   m_TagString: Untagged
@@ -626,6 +628,19 @@ Transform:
   m_Father: {fileID: 2283716014949837508}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4726915539693825412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46453577, y: 0.3539762, z: 0.43167868}
+  m_Center: {x: 0.084699064, y: 0.018196449, z: -0.0080338195}
 --- !u!1 &2283716014949742248
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,6 +989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2283716014949837534}
+  - component: {fileID: 3254405578844280323}
   m_Layer: 0
   m_Name: Bip001 R Clavicle
   m_TagString: Untagged
@@ -996,6 +1012,19 @@ Transform:
   m_Father: {fileID: 2283716014949837536}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3254405578844280323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31807208, y: 0.49679577, z: 0.21598293}
+  m_Center: {x: -0.19877122, y: -0.19607757, z: 0.04886515}
 --- !u!1 &2283716014949742272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,6 +1437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2283716014949837562}
+  - component: {fileID: 7002178369856787413}
   m_Layer: 0
   m_Name: Bip001 L Clavicle
   m_TagString: Untagged
@@ -1430,6 +1460,19 @@ Transform:
   m_Father: {fileID: 2283716014949837536}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7002178369856787413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31807208, y: 0.49679613, z: 0.1949442}
+  m_Center: {x: -0.1987712, y: -0.19607742, z: -0.045044784}
 --- !u!1 &2283716014949742300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2283716014949837566}
+  - component: {fileID: 8466711669888004967}
   m_Layer: 0
   m_Name: Bip001 Head
   m_TagString: Untagged
@@ -1492,3 +1536,16 @@ Transform:
   m_Father: {fileID: 2283716014949837536}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8466711669888004967
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283716014949742302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.32695636
+  m_Center: {x: -0.23838858, y: 0.037158437, z: 0.000000046048378}

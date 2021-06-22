@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PoolTreeStump : MonoBehaviour
 {
-    public static int num = 20;
+    public static int num = 30;
     public GameObject prefab;
     static GameObject[] items;
 

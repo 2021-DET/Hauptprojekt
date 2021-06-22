@@ -23,7 +23,7 @@ public class AmmunitionScript : MonoBehaviour
         {
             PlayerScript ps = col.transform.GetComponent<PlayerScript>();
             ps.addAmmo(10);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -21,6 +21,7 @@ public class EnemyScript : MonoBehaviour
     public GameObject explosionPrototype;
     // reference to the score object
     GameObject score;
+    public int vision = 15;
 
     void Start()
     {
@@ -29,7 +30,7 @@ public class EnemyScript : MonoBehaviour
         // find the game object for the UI
         //score = GameObject.FindGameObjectWithTag("Canvas") as GameObject;
         // find the player game object
-        player = GameObject.FindGameObjectWithTag("Player") as GameObject;
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
@@ -46,7 +47,7 @@ public class EnemyScript : MonoBehaviour
                 player.GetComponent<PlayerScript>().score++;
             }
             // delete the enemy game object immediately
-            Destroy(this.gameObject, 0f);
+            this.gameObject.SetActive(false);
         }
 
         // debug
@@ -65,8 +66,21 @@ public class EnemyScript : MonoBehaviour
     private void FixedUpdate()
     {
         // set movement
-        Vector3 pos = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.fixedDeltaTime);
-        rb.MovePosition(pos);
-        transform.LookAt(player.transform);
+        if (inRange(vision))
+        {
+            Vector3 pos = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.fixedDeltaTime);
+            rb.MovePosition(pos);
+            transform.LookAt(player.transform);
+        }
+    }
+
+    private bool inRange(int sight)
+    {
+        Vector3 playPos = player.transform.position;
+        if (Mathf.Abs(rb.position.x - playPos.x) < sight && Mathf.Abs(rb.position.z - playPos.z) < sight)
+        {
+            return true;
+        }
+        else return false;
     }
 }

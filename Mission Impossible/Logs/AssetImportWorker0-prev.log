@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.985; Version 2009; 64bit' Language: 'de' Physical Memory: 8109 MB
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'de' Physical Memory: 8109 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,869 +11,963 @@ C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/moham/Hauptprojekt/Mission Impossible
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58110
-Successfully changed project path to: C:/Users/moham/Hauptprojekt/Mission Impossible
-C:/Users/moham/Hauptprojekt/Mission Impossible
+62566
+Successfully changed project path to: C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 124.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 265.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/moham/Hauptprojekt/Mission Impossible/Assets
+[Subsystems] Discovering subsystems at path C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
     Vendor:   Intel
     VRAM:     4054 MB
-    Driver:   27.20.100.8681
+    Driver:   27.20.100.8682
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002880 seconds.
+Registered in 0.005748 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 241.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.985 seconds
+- Completed reload, in  3.395 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004813 seconds.
+Registered in 0.009347 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.653 seconds
+- Completed reload, in  3.730 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2873 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.7 MB.
-System memory in use after: 111.9 MB.
+Unloading 2876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.6 MB.
+System memory in use after: 123.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3334.
-Total: 3.281000 ms (FindLiveObjects: 0.441700 ms CreateObjectMapping: 0.244700 ms MarkObjects: 2.454000 ms  DeleteObjects: 0.138900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3350.
+Total: 5.589600 ms (FindLiveObjects: 0.546000 ms CreateObjectMapping: 0.367800 ms MarkObjects: 4.415500 ms  DeleteObjects: 0.257000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup01.prefab
-  artifactKey: Guid(10dcade9ef34ab642846c4b889ac76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup01.prefab using Guid(10dcade9ef34ab642846c4b889ac76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075e7f17fad7b8973f70eab4f47a0d6d') in 0.207082 seconds 
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/LightingData.asset
+  artifactKey: Guid(b009fa1b18fb56048a9147adaceb217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Scenes/lineUp/LightingData.asset using Guid(b009fa1b18fb56048a9147adaceb217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+
+ -> (artifact id: 'e15e24fbff451622d856b68d6096e2ac') in 0.119263 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000758 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock03.prefab
-  artifactKey: Guid(f16d978b3d1fa984d82c01d30a1fb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock03.prefab using Guid(f16d978b3d1fa984d82c01d30a1fb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482f69d5cc7e85ead9303b62ef7abd26') in 0.021365 seconds 
+  Time since last request: 0.000640 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Scenes/demo/LightingData.asset
+  artifactKey: Guid(23a8a9f771b84c2439ad077eadd3c78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Scenes/demo/LightingData.asset using Guid(23a8a9f771b84c2439ad077eadd3c78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+
+ -> (artifact id: 'c2f087cf8c879ae4228bf89c18f32683') in 0.029001 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.694 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3353.
+Total: 6.968400 ms (FindLiveObjects: 0.722600 ms CreateObjectMapping: 0.481800 ms MarkObjects: 5.697600 ms  DeleteObjects: 0.061600 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup02.prefab
-  artifactKey: Guid(8d8b11b2e2435cc4787335555d35714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup02.prefab using Guid(8d8b11b2e2435cc4787335555d35714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3efd616a026934d8405ce58defc639d') in 0.036084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree02.prefab
-  artifactKey: Guid(a1dee65b7ef7c344a97ff258503f49e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree02.prefab using Guid(a1dee65b7ef7c344a97ff258503f49e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f53e30ca9eb79f2fb518c7f44a9d2d0') in 0.044729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree_leafless.prefab
-  artifactKey: Guid(3b703535d10b66844a909b8cd4b12fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree_leafless.prefab using Guid(3b703535d10b66844a909b8cd4b12fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff99188285ddecbc2c0fd68e2f02805') in 0.036933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs
-  artifactKey: Guid(3a86b0cc5468f0b4db21353307b9724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs using Guid(3a86b0cc5468f0b4db21353307b9724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd058d037e4f53f63b222fed7ea9fa649') in 0.013261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree.prefab
-  artifactKey: Guid(b9eb627f7bb4c1748829f3f01ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree.prefab using Guid(b9eb627f7bb4c1748829f3f01ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d39676abdd54d69f79082732fc4d62') in 0.046376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree.prefab
-  artifactKey: Guid(23f312332b5cd5542ba196450880e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree.prefab using Guid(23f312332b5cd5542ba196450880e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f161281325430b27a4dd91bbfa600b') in 0.044823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000645 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree05.prefab
-  artifactKey: Guid(abf04ed981f9b0e4daef0f76c3c9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree05.prefab using Guid(abf04ed981f9b0e4daef0f76c3c9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4e93bb7ce47621d1059b35839a9ee1') in 0.032124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup03.prefab
-  artifactKey: Guid(88cc729ed2bce0b458f679b575dab345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup03.prefab using Guid(88cc729ed2bce0b458f679b575dab345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1c22a3d91842b82b8476ea21d3fd47') in 0.035817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock01.prefab
-  artifactKey: Guid(b3d0e1c692a75b34d96fb84c9b431b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock01.prefab using Guid(b3d0e1c692a75b34d96fb84c9b431b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cc174c825ce715e18c7841f3edffee') in 0.026023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree03.prefab
-  artifactKey: Guid(e191e21fcb275784a9f8b6d08dcd932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree03.prefab using Guid(e191e21fcb275784a9f8b6d08dcd932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30912158e84525f0ab344f82087de480') in 0.032732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001112 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree.prefab
-  artifactKey: Guid(e6f343cc46467004f811ce2ba3a3841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree.prefab using Guid(e6f343cc46467004f811ce2ba3a3841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8650dc13ba37305ea8752bed1e0bb53e') in 0.414931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree_leafless.prefab
-  artifactKey: Guid(ba2b67dbc790eb74f8a401c592dd619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree_leafless.prefab using Guid(ba2b67dbc790eb74f8a401c592dd619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b9386affff525e2d7c0bbd78edfe3e') in 0.032514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/mountain.prefab
-  artifactKey: Guid(81f51ec42d5c7784aa8e8d5298eddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/mountain.prefab using Guid(81f51ec42d5c7784aa8e8d5298eddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce618b6794a71c610f5cb46ee608d4c') in 0.047012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack
-  artifactKey: Guid(86fd7d7a59296ae49a3d3a7852c6f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack using Guid(86fd7d7a59296ae49a3d3a7852c6f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79efdd76e3b07acfea17b01a2cfb83ad') in 0.012282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree04.prefab
-  artifactKey: Guid(db15def326817084cb719e1c5f999b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree04.prefab using Guid(db15def326817084cb719e1c5f999b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438e6084e6403e21dcec34767efe95f') in 0.034170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree_leafless.prefab
-  artifactKey: Guid(be44d0243648ece459799ac0d5d4a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree_leafless.prefab using Guid(be44d0243648ece459799ac0d5d4a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416247f92248ef6b03007042ac4d2c4') in 0.026354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000958 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/treeStump.prefab
-  artifactKey: Guid(c0aa33e678586aa43a1a9254fdfdfb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/treeStump.prefab using Guid(c0aa33e678586aa43a1a9254fdfdfb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777280c4c441e052c2e3caaf1820260c') in 0.034422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock02.prefab
-  artifactKey: Guid(f76595434879f634c8b88f3cc4f08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock02.prefab using Guid(f76595434879f634c8b88f3cc4f08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbde7aa575a38a6943b7b2e5515d2b02') in 0.031138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree.prefab
-  artifactKey: Guid(3e07483cd9aa6a141bb9c8e2d2c2bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree.prefab using Guid(3e07483cd9aa6a141bb9c8e2d2c2bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2322f05c83e8a311db7a073f29ceb7') in 0.041324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.866529 seconds.
+  Time since last request: 302.195851 seconds.
   path: Assets/Scripts/Terrain2/GenerateTerrain.cs
   artifactKey: Guid(cce7ec026b0c84647b57d41cafd92388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Terrain2/GenerateTerrain.cs using Guid(cce7ec026b0c84647b57d41cafd92388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1f26857f0fde516519aad5165966e5') in 0.018964 seconds 
+Start importing Assets/Scripts/Terrain2/GenerateTerrain.cs using Guid(cce7ec026b0c84647b57d41cafd92388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822cfd6804a9c02fd2d08e4aa0d1d7fa') in 0.051466 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.608010 seconds.
-  path: Assets/Scripts/Terrain2/GenerateInfinte.cs
-  artifactKey: Guid(076ad86d01810fa4aa335b09ee89cf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Terrain2/GenerateInfinte.cs using Guid(076ad86d01810fa4aa335b09ee89cf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6ae9a8a3b487b0f63dbbeb3c7968a') in 0.049906 seconds 
+  Time since last request: 1029.252884 seconds.
+  path: Assets/Toon_RTS/unded_Demo/animation
+  artifactKey: Guid(516a71c1eae4cda4fb09e24ae84c7a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS/unded_Demo/animation using Guid(516a71c1eae4cda4fb09e24ae84c7a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94276473afb8ccc61d9ac0109adcd7c') in 0.051004 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.835539 seconds.
-  path: Assets/Scripts/GameScripts/PoolTree.cs
-  artifactKey: Guid(284d04c458ebb7149bf3f508d90e759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/PoolTree.cs using Guid(284d04c458ebb7149bf3f508d90e759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6c7692dcd88ea864df97aeb0af2e08') in 0.022282 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006744 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3345.
-Total: 6.064600 ms (FindLiveObjects: 0.497400 ms CreateObjectMapping: 0.336600 ms MarkObjects: 5.183000 ms  DeleteObjects: 0.044600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004561 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2843 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3349.
-Total: 3.869800 ms (FindLiveObjects: 0.376100 ms CreateObjectMapping: 0.212700 ms MarkObjects: 3.251200 ms  DeleteObjects: 0.027600 ms)
-
+  Time since last request: 0.000602 seconds.
+  path: Assets/Toon_RTS/unded_Demo/animation/UD_infantry_05_combat_idle.FBX
+  artifactKey: Guid(1fc39c37ef49990448d906d00f43bac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS/unded_Demo/animation/UD_infantry_05_combat_idle.FBX using Guid(1fc39c37ef49990448d906d00f43bac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54066e080d5b3a45fc17e129860a30ae') in 0.308914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.644673 seconds.
-  path: Assets/Scripts/GameScripts/NewBehaviourScript.cs
-  artifactKey: Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/NewBehaviourScript.cs using Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75bd10f1c75df01142b86d94dedab70') in 0.016130 seconds 
+  Time since last request: 0.000675 seconds.
+  path: Assets/Toon_RTS/unded_Demo/animation/UD_infantry_06_combat_walk.FBX
+  artifactKey: Guid(df4b19dbdcfed3c459acddcb64beaf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS/unded_Demo/animation/UD_infantry_06_combat_walk.FBX using Guid(df4b19dbdcfed3c459acddcb64beaf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692cc9fa854b96f47334ff9cca2652cf') in 0.051650 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.038125 seconds.
-  path: Assets/Scripts/GameScripts/PoolRock.cs
-  artifactKey: Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/PoolRock.cs using Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd206f9352b5febd4afc9b006ed295') in 0.012367 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004178 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.452 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2843 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3352.
-Total: 3.555100 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.238500 ms MarkObjects: 2.880800 ms  DeleteObjects: 0.036400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005102 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.303 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3354.
-Total: 5.461800 ms (FindLiveObjects: 0.653800 ms CreateObjectMapping: 0.456700 ms MarkObjects: 4.308000 ms  DeleteObjects: 0.040100 ms)
-
+  Time since last request: 0.000454 seconds.
+  path: Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX
+  artifactKey: Guid(3040a0cf02d17f341a7e266ca6d5f002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS/unded_Demo/animation/UD_infantry_07_attack_A.FBX using Guid(3040a0cf02d17f341a7e266ca6d5f002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dc1487e8e637a62bb8af1c55d40079') in 0.070988 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.835523 seconds.
-  path: Assets/Scripts/GameScripts/PoolTreeStump.cs
-  artifactKey: Guid(1f5297a4673bfd040bde17b2f9d38dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/PoolTreeStump.cs using Guid(1f5297a4673bfd040bde17b2f9d38dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19919ce6c2d51de693e5da780c05ac0') in 0.017036 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004216 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.526 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2843 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3358.
-Total: 4.782600 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.340000 ms MarkObjects: 3.963500 ms  DeleteObjects: 0.047400 ms)
-
+  Time since last request: 7.576371 seconds.
+  path: Assets/Toon_RTS/unded_Demo/prefab/UD_demo_character.prefab
+  artifactKey: Guid(9f4313a771e05c64d8da7ae6bd19a19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_RTS/unded_Demo/prefab/UD_demo_character.prefab using Guid(9f4313a771e05c64d8da7ae6bd19a19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128597d6b27cb7cee4091f3aab909f5e') in 0.532905 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.131206 seconds.
-  path: Assets/Scripts/GameScripts/PoolRock.cs
-  artifactKey: Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/PoolRock.cs using Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e640ef90fbd2df852e710f6eb1b8bcd') in 0.007982 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005026 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3362.
-Total: 2.922500 ms (FindLiveObjects: 0.319700 ms CreateObjectMapping: 0.201400 ms MarkObjects: 2.375200 ms  DeleteObjects: 0.024500 ms)
-
+  Time since last request: 30.755894 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree.prefab
+  artifactKey: Guid(e6f343cc46467004f811ce2ba3a3841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree.prefab using Guid(e6f343cc46467004f811ce2ba3a3841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3faeee181abb27562cf4abf1c5aec58') in 1.031743 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 609.682363 seconds.
-  path: Assets/Scripts/GameScripts/PoolRock.cs
-  artifactKey: Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScripts/PoolRock.cs using Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac30b55dd89bbbd0f833f7ce5da1ffc4') in 0.027081 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004347 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3365.
-Total: 3.437200 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.289500 ms MarkObjects: 2.735000 ms  DeleteObjects: 0.029500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005134 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3368.
-Total: 3.988400 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.254000 ms MarkObjects: 3.304700 ms  DeleteObjects: 0.039200 ms)
-
+  Time since last request: 0.000426 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup01.prefab
+  artifactKey: Guid(10dcade9ef34ab642846c4b889ac76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup01.prefab using Guid(10dcade9ef34ab642846c4b889ac76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca0d1515dd395275be2579b75815b8b') in 0.117946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 558.234394 seconds.
-  path: Assets/AssetStore/greyRoadStudio
-  artifactKey: Guid(b040477eb9ded1b46bfde97f298f1f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio using Guid(b040477eb9ded1b46bfde97f298f1f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb59a4995e57f49c1596a37b71c001e9') in 0.015035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.143856 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models
-  artifactKey: Guid(0de9b66731e72f44a856c01c08e79ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models using Guid(0de9b66731e72f44a856c01c08e79ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bd68fe1c1298f78fab33c31247fe33') in 0.033415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.071545 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/birchTree.fbx
-  artifactKey: Guid(bf854a44f4078f841a91c4fdfa36277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/birchTree.fbx using Guid(bf854a44f4078f841a91c4fdfa36277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2bbc8b32d66788e269c82a143126e0') in 0.601567 seconds 
+  Time since last request: 0.000634 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock03.prefab
+  artifactKey: Guid(f16d978b3d1fa984d82c01d30a1fb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock03.prefab using Guid(f16d978b3d1fa984d82c01d30a1fb40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea193712ca9a9c87018b21f810724f89') in 0.092192 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000883 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock03.fbx
-  artifactKey: Guid(c4f9c28a6050a9f46a1cd17e6b2d65e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock03.fbx using Guid(c4f9c28a6050a9f46a1cd17e6b2d65e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e0d6bdc11f64448525a1634982af2c') in 0.076179 seconds 
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup02.prefab
+  artifactKey: Guid(8d8b11b2e2435cc4787335555d35714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup02.prefab using Guid(8d8b11b2e2435cc4787335555d35714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d27c79212f2e37866d6bcd6cc1f226') in 0.101446 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup03.fbx
-  artifactKey: Guid(7dc8c408cf9eedb42bdd617a5b33750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup03.fbx using Guid(7dc8c408cf9eedb42bdd617a5b33750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab907b8e51d3c9afe8d97c81ef86b00') in 0.042624 seconds 
+  Time since last request: 0.004535 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree02.prefab
+  artifactKey: Guid(a1dee65b7ef7c344a97ff258503f49e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree02.prefab using Guid(a1dee65b7ef7c344a97ff258503f49e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0760e098fc9afa32a8334db2ff9a6d47') in 0.085713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree05.fbx
-  artifactKey: Guid(8821e6a51b1defd4db5c85af2f215af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree05.fbx using Guid(8821e6a51b1defd4db5c85af2f215af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2c4166c307c0a9f99452545f158841') in 0.051920 seconds 
+  Time since last request: 0.000373 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree_leafless.prefab
+  artifactKey: Guid(3b703535d10b66844a909b8cd4b12fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree_leafless.prefab using Guid(3b703535d10b66844a909b8cd4b12fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf9a1714cde7859e00601463970899') in 0.053396 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/birchTree_leafless.fbx
-  artifactKey: Guid(05bac68c5ab8b3d4a89f1030377162ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/birchTree_leafless.fbx using Guid(05bac68c5ab8b3d4a89f1030377162ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa4374791f3bac1f1d269edc8c37c8') in 0.050658 seconds 
+  Time since last request: 0.000382 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree.prefab
+  artifactKey: Guid(b9eb627f7bb4c1748829f3f01ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/oakTree.prefab using Guid(b9eb627f7bb4c1748829f3f01ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481ac041023e6c5a71ce330637ba81b1') in 0.065438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock01.fbx
-  artifactKey: Guid(40eee6d5f6f994c478afdb774a87c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock01.fbx using Guid(40eee6d5f6f994c478afdb774a87c9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94fb152774c2c74b6e43f31c77d7e83') in 0.041332 seconds 
+  Time since last request: 0.000438 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree05.prefab
+  artifactKey: Guid(abf04ed981f9b0e4daef0f76c3c9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree05.prefab using Guid(abf04ed981f9b0e4daef0f76c3c9fc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7588b998e6a96350e6e0962ab28a9df8') in 0.069295 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree04.fbx
-  artifactKey: Guid(977972e3f92f5e647b1ebad395149050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree04.fbx using Guid(977972e3f92f5e647b1ebad395149050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ae3e67688ddab2516ca2c0774d8bf1') in 0.041340 seconds 
+  Time since last request: 0.000557 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree.prefab
+  artifactKey: Guid(23f312332b5cd5542ba196450880e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree.prefab using Guid(23f312332b5cd5542ba196450880e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3ba102f03d4106672ff616047cc91c') in 0.074704 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/tree_leafless.fbx
-  artifactKey: Guid(e44e1a4a2783d5f41afcd8c670195f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/tree_leafless.fbx using Guid(e44e1a4a2783d5f41afcd8c670195f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc22cdcc584737bde2017c8e7aea0a5') in 0.042530 seconds 
+  Time since last request: 0.000378 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup03.prefab
+  artifactKey: Guid(88cc729ed2bce0b458f679b575dab345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rockGroup03.prefab using Guid(88cc729ed2bce0b458f679b575dab345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e59fa0940bad427aba43316c819a67') in 0.065361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/oakTree.fbx
-  artifactKey: Guid(ccafc2ea8bec52841ac2b9fd34238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/oakTree.fbx using Guid(ccafc2ea8bec52841ac2b9fd34238310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f18d86028ce3fa43daba3d5476de0d') in 0.044194 seconds 
+  Time since last request: 0.000446 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock01.prefab
+  artifactKey: Guid(b3d0e1c692a75b34d96fb84c9b431b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock01.prefab using Guid(b3d0e1c692a75b34d96fb84c9b431b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1d8697b1c14a4bf3458e82954c37b1') in 0.055365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree.fbx
-  artifactKey: Guid(67590bf36d0abac419beccf3fcb0e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree.fbx using Guid(67590bf36d0abac419beccf3fcb0e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c380e5a73ceceb07c159ae4274a6f5f') in 0.038530 seconds 
+  Time since last request: 0.000971 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree03.prefab
+  artifactKey: Guid(e191e21fcb275784a9f8b6d08dcd932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree03.prefab using Guid(e191e21fcb275784a9f8b6d08dcd932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a659cd43e37e9b44cc07a7935ef6ba48') in 0.063074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup02.fbx
-  artifactKey: Guid(0ea1e9698b38fcf459ce485aaaacd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup02.fbx using Guid(0ea1e9698b38fcf459ce485aaaacd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dd72ed3697853a0c782149b81c42c8') in 0.037271 seconds 
+  Time since last request: 0.000702 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree_leafless.prefab
+  artifactKey: Guid(ba2b67dbc790eb74f8a401c592dd619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/tree_leafless.prefab using Guid(ba2b67dbc790eb74f8a401c592dd619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e35c2f5c697176dd7178ce2de64592') in 0.074237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree03.fbx
-  artifactKey: Guid(0c6c37ce748b92a4dadb2b5e33ed6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree03.fbx using Guid(0c6c37ce748b92a4dadb2b5e33ed6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4beb4d3a37b383e9c49be773f31e12') in 0.050729 seconds 
+  Time since last request: 0.000472 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/mountain.prefab
+  artifactKey: Guid(81f51ec42d5c7784aa8e8d5298eddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/mountain.prefab using Guid(81f51ec42d5c7784aa8e8d5298eddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7fd9517cfc890635581cf23411c19e') in 0.067945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/tree.fbx
-  artifactKey: Guid(1fc71d46bd91b21459596d37ee587fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/tree.fbx using Guid(1fc71d46bd91b21459596d37ee587fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f509b8569a0371c23abcefb4a683b2') in 0.042420 seconds 
+  Time since last request: 0.000514 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree04.prefab
+  artifactKey: Guid(db15def326817084cb719e1c5f999b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree04.prefab using Guid(db15def326817084cb719e1c5f999b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f63a8ac008df6fe4c4c7ee843ec8ebd') in 0.076472 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/treeStump.fbx
-  artifactKey: Guid(938f727ebe2097b41b4316b1b5d89069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/treeStump.fbx using Guid(938f727ebe2097b41b4316b1b5d89069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ee156c0c86830e10357431bf79d92') in 0.042388 seconds 
+  Time since last request: 0.000640 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree_leafless.prefab
+  artifactKey: Guid(be44d0243648ece459799ac0d5d4a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/birchTree_leafless.prefab using Guid(be44d0243648ece459799ac0d5d4a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d262596a1dd72c5575e07c65a3aea1') in 0.069211 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/mountain.fbx
-  artifactKey: Guid(4882698f19d48dd42af12117cea6f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/mountain.fbx using Guid(4882698f19d48dd42af12117cea6f02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fae7fa2f19cbbce0bdd09b7755bd2b') in 0.050350 seconds 
+  Time since last request: 0.000539 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/treeStump.prefab
+  artifactKey: Guid(c0aa33e678586aa43a1a9254fdfdfb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/treeStump.prefab using Guid(c0aa33e678586aa43a1a9254fdfdfb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c34c824998f340c856f2a167b438d1') in 0.071527 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock02.fbx
-  artifactKey: Guid(fe370a052daa6ec4d82e69b455c68642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rock02.fbx using Guid(fe370a052daa6ec4d82e69b455c68642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdbfa6e96b71f09da7ecc02e50aeec8') in 0.042324 seconds 
+  Time since last request: 0.000436 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock02.prefab
+  artifactKey: Guid(f76595434879f634c8b88f3cc4f08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/rock02.prefab using Guid(f76595434879f634c8b88f3cc4f08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5bafc0c5ef848fda365b44d47900c9') in 0.061055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup01.fbx
-  artifactKey: Guid(ce05bacb958420d44b5c27f0d00462e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/rockGroup01.fbx using Guid(ce05bacb958420d44b5c27f0d00462e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9955bbe965b8731cb8ec10415218ab8') in 0.040158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree02.fbx
-  artifactKey: Guid(ad958cb822595a244972ff1b4c400778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/pineTree02.fbx using Guid(ad958cb822595a244972ff1b4c400778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234a5a98d7c323f3bd4e563965d8a32b') in 0.046787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/oakTree_leafless.fbx
-  artifactKey: Guid(e3d54c8d2447c9f4b9ad5d2021da4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Models/oakTree_leafless.fbx using Guid(e3d54c8d2447c9f4b9ad5d2021da4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0753a9c8a8658c0bfbfe03841161e377') in 0.035869 seconds 
+  Time since last request: 0.000626 seconds.
+  path: Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree.prefab
+  artifactKey: Guid(3e07483cd9aa6a141bb9c8e2d2c2bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/greyRoadStudio/LowPolyTreePack/Prefabs/pineTree.prefab using Guid(3e07483cd9aa6a141bb9c8e2d2c2bdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d882d5499dad2223a65d4a00bf711a') in 0.059610 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004928 seconds.
+Registered in 0.010936 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  2.511 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+System memory in use before: 138.6 MB.
+System memory in use after: 138.8 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3375.
-Total: 3.059300 ms (FindLiveObjects: 0.337400 ms CreateObjectMapping: 0.210600 ms MarkObjects: 2.475600 ms  DeleteObjects: 0.033400 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 5.938400 ms (FindLiveObjects: 0.495000 ms CreateObjectMapping: 0.371100 ms MarkObjects: 5.028300 ms  DeleteObjects: 0.040400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004761 seconds.
+Registered in 0.018095 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  2.570 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 113.4 MB.
+System memory in use before: 138.6 MB.
+System memory in use after: 138.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3378.
-Total: 4.860100 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.308300 ms MarkObjects: 4.110100 ms  DeleteObjects: 0.036800 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 3.929100 ms (FindLiveObjects: 0.481200 ms CreateObjectMapping: 0.297400 ms MarkObjects: 3.098400 ms  DeleteObjects: 0.049200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 463.327499 seconds.
-  path: Assets/Prefabs/BulletSpray.prefab
-  artifactKey: Guid(83db0b62643b9c24b970190e0f7fe4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BulletSpray.prefab using Guid(83db0b62643b9c24b970190e0f7fe4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f9087490dec20e599ac3b677b40a2') in 0.332034 seconds 
+  Time since last request: 502.767044 seconds.
+  path: Assets/Scripts/Terrain2/GenerateTerrain.cs
+  artifactKey: Guid(cce7ec026b0c84647b57d41cafd92388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Terrain2/GenerateTerrain.cs using Guid(cce7ec026b0c84647b57d41cafd92388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51249951c8bbb2a7880894d4bee6dc7') in 0.024302 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/Prefabs/Tree.prefab
-  artifactKey: Guid(3d70742729db85e4d8e6a7dd960e9784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree.prefab using Guid(3d70742729db85e4d8e6a7dd960e9784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d029486d96739a92df9905d5fafc275') in 0.272469 seconds 
+  Time since last request: 519.842356 seconds.
+  path: Assets/Scripts/GameScripts/PoolTree.cs
+  artifactKey: Guid(284d04c458ebb7149bf3f508d90e759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolTree.cs using Guid(284d04c458ebb7149bf3f508d90e759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ebac52a024d72b95fea8ccc9d87be4') in 0.063701 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001375 seconds.
-  path: Assets/Prefabs/PlayerPrefab.prefab
-  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5140cbda8483d45ec0b2019c97f0ca5') in 0.835855 seconds 
+  Time since last request: 2.264770 seconds.
+  path: Assets/Scripts/GameScripts/PoolScript.cs
+  artifactKey: Guid(5f1c8f446e1f0064896ab28042e15aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolScript.cs using Guid(5f1c8f446e1f0064896ab28042e15aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f30dfd65098fcad0880ae53cdff018d') in 0.030146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Prefabs/SmartPlane.prefab
-  artifactKey: Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SmartPlane.prefab using Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1072a85e65e6e6dddf97d63df6cfbb28') in 0.087292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.380638 seconds.
-  path: Assets/AssetStore/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.021342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.629386 seconds.
-  path: Assets/AssetStore/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1615d532dab169fd406a25610c85d83') in 0.021039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023310 seconds.
-  path: Assets/AssetStore/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ebe4ab984d3116c78f19e11443b809') in 0.106255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.262411 seconds.
-  path: Assets/AssetStore/JMO Assets/Cartoon FX Easy Editor
-  artifactKey: Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/JMO Assets/Cartoon FX Easy Editor using Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3947673fefe39fbbf85af9db8b66f7b7') in 0.026300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.354687 seconds.
-  path: Assets/AssetStore/JMO Assets/WarFX
-  artifactKey: Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/JMO Assets/WarFX using Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a07ad61ae2abb99ac81d6e8f66f0f05') in 0.020814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.695262 seconds.
-  path: Assets/AssetStore/Tiny RPG Forest/Scenes
-  artifactKey: Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Tiny RPG Forest/Scenes using Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b145789e238c8a032d547d4fb7bae44d') in 0.021122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.274519 seconds.
-  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset.png
-  artifactKey: Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/tileset.png using Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ecd0a0fd3e22b9952c2140a4ec731') in 0.129920 seconds 
+  Time since last request: 5.798818 seconds.
+  path: Assets/Scripts/GameScripts/PoolTreeStump.cs
+  artifactKey: Guid(1f5297a4673bfd040bde17b2f9d38dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolTreeStump.cs using Guid(1f5297a4673bfd040bde17b2f9d38dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8d8451ccb8453377d1ac1613f30ef6') in 0.106916 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.410141 seconds.
+Registered in 0.018879 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.278 seconds
+- Completed reload, in  2.366 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.3 MB.
-System memory in use after: 129.5 MB.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.6 MB.
+System memory in use after: 138.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3454.
-Total: 3.569800 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.253700 ms MarkObjects: 2.917000 ms  DeleteObjects: 0.023900 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 6.591600 ms (FindLiveObjects: 0.971700 ms CreateObjectMapping: 1.002000 ms MarkObjects: 4.540600 ms  DeleteObjects: 0.068200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 88.867790 seconds.
-  path: Assets/Prefabs/Materials/New Material.mat
-  artifactKey: Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/New Material.mat using Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3ad1ed336b7140967f20e255784e8a') in 0.143341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.381934 seconds.
-  path: Assets/Prefabs/Materials/Boden.mat
-  artifactKey: Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/Boden.mat using Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada4af231ac9fa12712af692ce29ab5') in 0.058719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.060926 seconds.
-  path: Assets/Prefabs/Materials/Ground.mat
-  artifactKey: Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/Ground.mat using Guid(0b78983f753be7641b3cf320a626d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c0476bbe21cd48e0e1d8d09df102ca') in 0.028086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.711096 seconds.
-  path: Assets/Prefabs/SmartPlane.prefab
-  artifactKey: Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SmartPlane.prefab using Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352f0c9373fd3a8d02b03491e83c4b96') in 0.052397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.105026 seconds.
-  path: Assets/Prefabs/Tree_Textures/diffuse.png
-  artifactKey: Guid(328ba5a4a306445438e719a08761dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree_Textures/diffuse.png using Guid(328ba5a4a306445438e719a08761dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d9dd43f15d763ec55f38a2f1a2492') in 0.049117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Prefabs/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(50bfd14b672dcef43a64c28c3aec8227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree_Textures/translucency_gloss.png using Guid(50bfd14b672dcef43a64c28c3aec8227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d4f4aa7e85e5da40e7b116c2fd7921') in 0.040816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001026 seconds.
-  path: Assets/Prefabs/Tree_Textures/normal_specular.png
-  artifactKey: Guid(30c47d5c289618f428d9f246f6bb9650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree_Textures/normal_specular.png using Guid(30c47d5c289618f428d9f246f6bb9650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89328245b48caa23467f713de226b211') in 0.034660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Prefabs/Tree_Textures/shadow.png
-  artifactKey: Guid(a2a4e586ebdf56141b1aed300d92b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree_Textures/shadow.png using Guid(a2a4e586ebdf56141b1aed300d92b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ab610f68630554955afb32de068535') in 0.029097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.275866 seconds.
-  path: Assets/Images/crosshair158.png
-  artifactKey: Guid(fd8bc88104343c44bbaf9c73a1cf6918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/crosshair158.png using Guid(fd8bc88104343c44bbaf9c73a1cf6918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825eaa6827ca7988ace6923d58e38a28') in 0.064205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.523676 seconds.
-  path: Assets/Tree_Textures/diffuse.png
-  artifactKey: Guid(bed48daac5bc21c4ebd5a5b94d4ed3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/diffuse.png using Guid(bed48daac5bc21c4ebd5a5b94d4ed3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e3097c9f26adfb6ac3ac28943b96b7') in 0.015960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(06d6bb0f91d9204428febab7382557d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(06d6bb0f91d9204428febab7382557d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9cd9ecd8bced9aba5c30a174806b82') in 0.018633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/Tree_Textures/shadow.png
-  artifactKey: Guid(6f7c99ff0d8890f4eac22896ceb5fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/shadow.png using Guid(6f7c99ff0d8890f4eac22896ceb5fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b17b79447db21167c6906089adf0ed') in 0.046303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001077 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(07fc51519edb02046806fea859006c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(07fc51519edb02046806fea859006c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897a8fdcced8735c4686781f9868052a') in 0.023752 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005110 seconds.
+Registered in 0.013693 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
+- Completed reload, in  2.855 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.5 MB.
-System memory in use after: 133.7 MB.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3596.
-Total: 3.924600 ms (FindLiveObjects: 0.584800 ms CreateObjectMapping: 0.363100 ms MarkObjects: 2.941200 ms  DeleteObjects: 0.034100 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 5.100900 ms (FindLiveObjects: 0.534300 ms CreateObjectMapping: 0.326300 ms MarkObjects: 4.204300 ms  DeleteObjects: 0.033600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 25.988479 seconds.
-  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials
-  artifactKey: Guid(e87bb3a919c52ae4d945a920bc827a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials using Guid(e87bb3a919c52ae4d945a920bc827a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c110ac505479c238f277b693335b2e90') in 0.030681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050351 seconds.
-  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials/waterfall-1.mat
-  artifactKey: Guid(873f9f67e48197641b6f6037a87f22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials/waterfall-1.mat using Guid(873f9f67e48197641b6f6037a87f22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7a68a39e2469d7c151f0609c659dde') in 0.109073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials/waterfall-3.mat
-  artifactKey: Guid(e7394143c82a2da4eacc0876bd3c7573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Tiny RPG Forest/Artwork/Environment/waterfall animation/Materials/waterfall-3.mat using Guid(e7394143c82a2da4eacc0876bd3c7573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fd56ecfb0ae73af01e065af0876736') in 0.032498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 140.988070 seconds.
-  path: Assets/Prefabs/SmartPlane.prefab
-  artifactKey: Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SmartPlane.prefab using Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e72cd344df173f9437e9fede7a26a7c') in 0.045452 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005050 seconds.
+Registered in 0.008183 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.079 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 9.305600 ms (FindLiveObjects: 4.915300 ms CreateObjectMapping: 0.619500 ms MarkObjects: 3.723200 ms  DeleteObjects: 0.044400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.565 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3379.
+Total: 5.022000 ms (FindLiveObjects: 0.623400 ms CreateObjectMapping: 0.436800 ms MarkObjects: 3.915600 ms  DeleteObjects: 0.042900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.420 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 5.750700 ms (FindLiveObjects: 0.941500 ms CreateObjectMapping: 0.374900 ms MarkObjects: 4.397700 ms  DeleteObjects: 0.034300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1491.275135 seconds.
+  path: Assets/Scripts/GameScripts/PoolRock.cs
+  artifactKey: Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolRock.cs using Guid(702c1d24a8810d6419fa1f856099788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746eef5eab03db72258dedefe27f996') in 0.054994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.711954 seconds.
+  path: Assets/Scripts/GameScripts/PoolMummiesScript.cs
+  artifactKey: Guid(270600edc26938f4a9b1004ef038ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolMummiesScript.cs using Guid(270600edc26938f4a9b1004ef038ffc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a497728d7d5c28d802398c3a86d190') in 0.056146 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3386.
+Total: 10.127500 ms (FindLiveObjects: 0.789600 ms CreateObjectMapping: 0.341800 ms MarkObjects: 8.942800 ms  DeleteObjects: 0.049400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3388.
+Total: 3.946900 ms (FindLiveObjects: 0.717600 ms CreateObjectMapping: 0.383300 ms MarkObjects: 2.815100 ms  DeleteObjects: 0.028500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.367962 seconds.
+  path: Assets/Scripts/GameScripts/PoolMummies.cs
+  artifactKey: Guid(0953b459302476f43b3470cb43fc693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolMummies.cs using Guid(0953b459302476f43b3470cb43fc693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e96483a4ef823b8d386dcd17aef7278') in 0.053300 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3392.
+Total: 6.250600 ms (FindLiveObjects: 0.561300 ms CreateObjectMapping: 0.804500 ms MarkObjects: 4.840000 ms  DeleteObjects: 0.042000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 6.212900 ms (FindLiveObjects: 0.609100 ms CreateObjectMapping: 0.696200 ms MarkObjects: 4.850900 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3398.
+Total: 6.918900 ms (FindLiveObjects: 0.612100 ms CreateObjectMapping: 0.575500 ms MarkObjects: 5.657300 ms  DeleteObjects: 0.070600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004160 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
+- Completed reload, in  1.619 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.3 MB.
-System memory in use after: 133.5 MB.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 139.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3600.
-Total: 3.055400 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.181400 ms MarkObjects: 2.484300 ms  DeleteObjects: 0.023200 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 5.214100 ms (FindLiveObjects: 0.664700 ms CreateObjectMapping: 0.406500 ms MarkObjects: 4.102100 ms  DeleteObjects: 0.037700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007516 seconds.
+Registered in 0.005822 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\moham\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  2.301 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.3 MB.
-System memory in use after: 133.5 MB.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 139.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 3.554100 ms (FindLiveObjects: 0.438400 ms CreateObjectMapping: 0.210900 ms MarkObjects: 2.877700 ms  DeleteObjects: 0.025800 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3404.
+Total: 3.975000 ms (FindLiveObjects: 0.561300 ms CreateObjectMapping: 0.333900 ms MarkObjects: 3.051100 ms  DeleteObjects: 0.026900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.542 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 4.709000 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.316500 ms MarkObjects: 3.905300 ms  DeleteObjects: 0.136700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004351 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3410.
+Total: 3.180000 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.283500 ms MarkObjects: 2.519900 ms  DeleteObjects: 0.027100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004448 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.374 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 3.574600 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.275300 ms MarkObjects: 2.847800 ms  DeleteObjects: 0.030300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 926.093331 seconds.
+  path: Assets/Scripts/GameScripts/PoolUndead.cs
+  artifactKey: Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolUndead.cs using Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e80d9b833ef5af145888c349026f1') in 0.039515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.179247 seconds.
+  path: Assets/Scripts/GameScripts/PoolUndead.cs
+  artifactKey: Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolUndead.cs using Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f927915f232a901d497e21c3e4afac0b') in 0.030976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.269076 seconds.
+  path: Assets/Scripts/GameScripts/PoolUndead.cs
+  artifactKey: Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScripts/PoolUndead.cs using Guid(72d7efe688565744da691fc49836c122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471c0009d381a8591c8fb47195fdb31a') in 0.020469 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004312 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 4.451300 ms (FindLiveObjects: 0.372000 ms CreateObjectMapping: 0.303000 ms MarkObjects: 3.744500 ms  DeleteObjects: 0.029900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.930806 seconds.
+  path: Assets/Prefabs/MummyPrefab.prefab
+  artifactKey: Guid(2e4af1696a8feed43b88d98b71b65a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MummyPrefab.prefab using Guid(2e4af1696a8feed43b88d98b71b65a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e58d6e38fe5c5d9ba1ae1d92eadf21c') in 0.384757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.137190 seconds.
+  path: Assets/Prefabs/UndeadPrefab.prefab
+  artifactKey: Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UndeadPrefab.prefab using Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2763d3a81f32bad6c900d7daafd35a') in 0.029160 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.531 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 5.896200 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.876700 ms MarkObjects: 4.417400 ms  DeleteObjects: 0.044100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.811 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3425.
+Total: 6.324900 ms (FindLiveObjects: 0.922300 ms CreateObjectMapping: 0.609300 ms MarkObjects: 4.721500 ms  DeleteObjects: 0.069300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3428.
+Total: 4.637100 ms (FindLiveObjects: 0.557800 ms CreateObjectMapping: 0.534500 ms MarkObjects: 3.510700 ms  DeleteObjects: 0.031500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.534043 seconds.
+  path: Assets/Prefabs/UndeadPrefab.prefab
+  artifactKey: Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UndeadPrefab.prefab using Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e4e827f6f75d7a47db9dc3ed50ded5') in 0.084914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Prefabs/MummyPrefab.prefab
+  artifactKey: Guid(2e4af1696a8feed43b88d98b71b65a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MummyPrefab.prefab using Guid(2e4af1696a8feed43b88d98b71b65a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71d47411852b0fdcd871a528d4e6642') in 0.184217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.254919 seconds.
+  path: Assets/Prefabs/UndeadPrefab.prefab
+  artifactKey: Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UndeadPrefab.prefab using Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d3050ace55c75cdc2a975435eaf59') in 0.027167 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008447 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.710 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 4.758600 ms (FindLiveObjects: 0.580300 ms CreateObjectMapping: 0.393200 ms MarkObjects: 3.749800 ms  DeleteObjects: 0.032200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005623 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 5.590300 ms (FindLiveObjects: 0.540200 ms CreateObjectMapping: 0.373000 ms MarkObjects: 4.637300 ms  DeleteObjects: 0.037400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.849040 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/prefab
+  artifactKey: Guid(72a1f2f7b6a710648b91eda7cfdf68f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/prefab using Guid(72a1f2f7b6a710648b91eda7cfdf68f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce628fe9802965b4502fc9040b1ecee') in 0.042938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.733102 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/model/Materials/Undead_demo.tga
+  artifactKey: Guid(ff251c636f9510c49bbd99201139cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/model/Materials/Undead_demo.tga using Guid(ff251c636f9510c49bbd99201139cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25bdf883488ea225841f67589ea28c') in 0.222873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/model/Materials/Undead_RTS_units_demo.mat
+  artifactKey: Guid(d480622745485704998fe05cc40d4f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/model/Materials/Undead_RTS_units_demo.mat using Guid(d480622745485704998fe05cc40d4f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20daecffb28517c27b519226d9606116') in 0.214406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.297922 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/model/UD_demo_character.FBX
+  artifactKey: Guid(3ab25c4a4999a5c4aaa3012d81358873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/model/UD_demo_character.FBX using Guid(3ab25c4a4999a5c4aaa3012d81358873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee59c200d6c6c32d0f4e8168241116') in 0.183858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.513805 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/demo_scene/sample_ground.mat
+  artifactKey: Guid(f06b69bdd62b9ec4199cb99da0050cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/demo_scene/sample_ground.mat using Guid(f06b69bdd62b9ec4199cb99da0050cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517dfb5f6351b44346f93dfc2029aaf0') in 0.052643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AssetStore/Toon_RTS/unded_Demo/demo_scene/sample_ground_texture.tga
+  artifactKey: Guid(6624d69b18f4dc0458640692a5d9fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Toon_RTS/unded_Demo/demo_scene/sample_ground_texture.tga using Guid(6624d69b18f4dc0458640692a5d9fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaba9f1cc9340a56698daf5c818b853') in 0.099138 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009619 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.581 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 6.254600 ms (FindLiveObjects: 2.166400 ms CreateObjectMapping: 0.584700 ms MarkObjects: 3.438300 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.337580 seconds.
+  path: Assets/Prefabs/UndeadPrefab.prefab
+  artifactKey: Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UndeadPrefab.prefab using Guid(91da8f86b4d82274bbc3016afbad259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc93ba57686fb8ac162da727cdcc017') in 0.076881 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
