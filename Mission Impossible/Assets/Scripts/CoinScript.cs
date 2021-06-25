@@ -15,7 +15,7 @@ public class CoinScript : MonoBehaviour
 
             // increase score value
             //score.GetComponent<ScoreScript>().scoreValue++;
-            col.gameObject.GetComponent<PlayerScript>().gold += value;
+            col.transform.root.GetComponent<PlayerScript>().gold += value;
             //Destroy(gameObject);
             gameObject.SetActive(false);
         }
