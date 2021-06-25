@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 2349383025610050518}
   - component: {fileID: 2349383025610050521}
   - component: {fileID: 2349383025610050520}
-  - component: {fileID: 2349383025610050523}
   - component: {fileID: 2349383025610050522}
   m_Layer: 0
   m_Name: PlayerPrefab
@@ -231,19 +230,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!65 &2349383025610050523
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2349383025610050525}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8879541, y: 1.6147988, z: 1}
-  m_Center: {x: 0.0029364824, y: 0.535349, z: 0}
 --- !u!114 &2349383025610050522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,7 +332,7 @@ GameObject:
   - component: {fileID: 5815188858733909092}
   m_Layer: 0
   m_Name: Bip001 Neck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -422,7 +408,7 @@ GameObject:
   - component: {fileID: 4402119847586129352}
   m_Layer: 0
   m_Name: Bip001 L Forearm
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -955,7 +941,7 @@ GameObject:
   - component: {fileID: 5153004583997801712}
   m_Layer: 0
   m_Name: Bip001 Spine
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1245,8 +1231,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2349383026554593256}
-  m_LocalRotation: {x: 0.12187027, y: -0.06664269, z: 0.008201544, w: 0.9902723}
-  m_LocalPosition: {x: 1.77, y: 2.19, z: -1.3699999}
+  m_LocalRotation: {x: 0.1218707, y: -0.06664268, z: 0.008201573, w: 0.9902722}
+  m_LocalPosition: {x: 1.77, y: 31.990002, z: -1.3699999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2349383025610050518}
@@ -1349,7 +1335,7 @@ GameObject:
   - component: {fileID: 3423613720044932123}
   m_Layer: 0
   m_Name: Backpack_container
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1812,7 +1798,7 @@ GameObject:
   - component: {fileID: 6816525506162085108}
   m_Layer: 0
   m_Name: Bip001 R Forearm
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
