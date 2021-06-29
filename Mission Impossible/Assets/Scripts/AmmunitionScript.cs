@@ -21,7 +21,7 @@ public class AmmunitionScript : MonoBehaviour
         // if player hits an ammunition pack
         if (col.gameObject.tag == "Player")
         {
-            PlayerScript ps = col.transform.GetComponent<PlayerScript>();
+            PlayerScript ps = col.transform.root.GetComponent<PlayerScript>();
             ps.addAmmo(10);
             gameObject.SetActive(false);
         }

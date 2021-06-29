@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 2283716014949837498}
   - component: {fileID: 2283716014940243228}
   - component: {fileID: -1537694859990852328}
-  - component: {fileID: -68575862046551430}
   - component: {fileID: 2297986556331516261}
   - component: {fileID: 1443111469701583287}
   m_Layer: 0
@@ -168,19 +167,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &-68575862046551430
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2283716014949742234}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 0.70121753, y: 1.0507195, z: 0.7417754}
-  m_Center: {x: -0.0144818425, y: 0.5340712, z: 0.08437687}
 --- !u!114 &2297986556331516261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,7 +594,7 @@ GameObject:
   - component: {fileID: 4726915539693825412}
   m_Layer: 0
   m_Name: Bip001 Spine1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -992,7 +978,7 @@ GameObject:
   - component: {fileID: 3254405578844280323}
   m_Layer: 0
   m_Name: Bip001 R Clavicle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1440,7 +1426,7 @@ GameObject:
   - component: {fileID: 7002178369856787413}
   m_Layer: 0
   m_Name: Bip001 L Clavicle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1516,7 +1502,7 @@ GameObject:
   - component: {fileID: 8466711669888004967}
   m_Layer: 0
   m_Name: Bip001 Head
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
