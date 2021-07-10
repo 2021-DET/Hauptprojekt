@@ -4,25 +4,35 @@ using UnityEngine;
 
 public class ShoulderScript : MonoBehaviour
 {
-    public float speed = 6f;
+    public float speed = 5f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.rotation = Quaternion.identity;
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*float height = Input.GetAxis("Mouse Y");
-        transform.Rotate(0, height * speed * Time.deltaTime, 0);
-        */
-        float mouseX = Input.GetAxisRaw("Mouse X");
-        float mouseY = Input.GetAxisRaw("Mouse Y");
-        mouseY = Mathf.Clamp(mouseY, -35, 60);
-        Vector3 rotVector = new Vector3(mouseY, mouseX, 0f) * speed;
-        //camTransform.Rotate(rotVector);
-        transform.Rotate(new Vector3(-Mathf.Clamp(rotVector.x, -35, 60), 0f, 0f));
-        
-    }
+        float mouseY = Input.GetAxis("Mouse Y");
+        Vector3 rotation = transform.localEulerAngles;
+        float rotationY = - mouseY * speed;
+        if (rotation.x >= 300)
+        {
+            rotationY += rotation.x;
+        }
+        else if (rotation.x < 300 && rotation.x > 180)
+        {
+            rotationY = 300;
+        }
+        else if (rotation.x <= 180 && rotation.x > 61)
+        {
+            rotationY = 60;
+        }
+        else
+        {
+            rotationY += rotation.x;
+        }
+        transform.localEulerAngles = new Vector3(rotationY, 0, 0);
+    } 
 }
