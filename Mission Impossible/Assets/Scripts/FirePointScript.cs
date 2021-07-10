@@ -22,7 +22,7 @@ public class FirePointScript : MonoBehaviour
             this.transform.LookAt(crosshair);
         } else
         {
-            transform.Rotate(new Vector3(0, 0, 0));
+            transform.localRotation = Quaternion.identity;
         }
     }
 }
