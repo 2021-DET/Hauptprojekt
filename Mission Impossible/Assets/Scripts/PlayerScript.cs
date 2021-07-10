@@ -165,7 +165,7 @@ public class PlayerScript : MonoBehaviour
         // reference to the rigidbody of the bullet
         Rigidbody rd = bullet.GetComponent<Rigidbody>();
         // give bullet the force value
-        rd.AddForce(firePoint.up * bulletForce, ForceMode.Impulse);
+        rd.AddForce(firePoint.forward * bulletForce, ForceMode.Impulse);
     }
 
     void SalveShoot()
@@ -181,9 +181,9 @@ public class PlayerScript : MonoBehaviour
         Rigidbody rd2 = bullet2.GetComponent<Rigidbody>();
         Rigidbody rd3 = bullet3.GetComponent<Rigidbody>();
         // give bullet the force value
-        rd1.velocity = rd1.transform.up * bulletForce;
-        rd2.velocity = rd2.transform.up * bulletForce;
-        rd3.velocity = rd3.transform.up * bulletForce;
+        rd1.velocity = rd1.transform.forward * bulletForce;
+        rd2.velocity = rd2.transform.forward * bulletForce;
+        rd3.velocity = rd3.transform.forward * bulletForce;
     }
 
     IEnumerator FireShot()
