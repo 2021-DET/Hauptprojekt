@@ -17,21 +17,22 @@ public class ShoulderScript : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y");
         Vector3 rotation = transform.localEulerAngles;
         float rotationY = - mouseY * speed;
-        if (rotation.x >= 300)
+        Debug.Log(rotation.x);
+        if (rotation.x >= 310)
         {
-            rotationY += rotation.x;
+            rotationY = Mathf.Clamp(rotationY + rotation.x, 310, 360);
         }
-        else if (rotation.x < 300 && rotation.x > 180)
+        else if (rotation.x < 310 && rotation.x > 180)
         {
-            rotationY = 300;
+            rotationY = 310;
         }
-        else if (rotation.x <= 180 && rotation.x > 61)
+        else if (rotation.x <= 180 && rotation.x > 51)
         {
-            rotationY = 60;
+            rotationY = 50;
         }
         else
         {
-            rotationY += rotation.x;
+            rotationY = Mathf.Clamp(rotationY + rotation.x, -50, 50);
         }
         transform.localEulerAngles = new Vector3(rotationY, 0, 0);
     } 
