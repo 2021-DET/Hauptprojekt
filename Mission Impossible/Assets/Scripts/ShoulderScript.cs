@@ -17,10 +17,9 @@ public class ShoulderScript : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y");
         Vector3 rotation = transform.localEulerAngles;
         float rotationY = - mouseY * speed;
-        Debug.Log(rotation.x);
         if (rotation.x >= 310)
         {
-            rotationY = Mathf.Clamp(rotationY + rotation.x, 310, 360);
+            rotationY = Mathf.Clamp(rotationY + rotation.x, 310, 361);
         }
         else if (rotation.x < 310 && rotation.x > 180)
         {
