@@ -513,6 +513,29 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2349383025834508035, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
   m_PrefabInstance: {fileID: 1677849631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1127575866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2349383026767267461, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
+  m_PrefabInstance: {fileID: 1677849631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1127575868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127575866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2588cc5dedbb75e49a44aada63f7b939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AimCollisionFilter:
+    serializedVersion: 2
+    m_Bits: 1
+  IgnoreTag: 
+  AimDistance: 200
+  AimTargetReticle: {fileID: 0}
 --- !u!114 &1420916395 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9008851817788727374, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
@@ -581,7 +604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349383025610050520, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_Constraints
-      value: 80
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 2349383025610050520, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_CollisionDetection
@@ -621,19 +644,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026554593257, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99159676
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026554593257, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12931302
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026554593257, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0037173096
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026554593257, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0004847702
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026767267459, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -649,19 +672,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026767267459, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99159676
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026767267459, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12931302
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026767267459, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0037173096
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026767267459, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0004847702
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383026918973534, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -709,15 +732,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349383027351572073, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: Damping.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383027351572073, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: Damping.y
-      value: 0.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383027351572073, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: Damping.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349383027351572073, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: ShoulderOffset.x

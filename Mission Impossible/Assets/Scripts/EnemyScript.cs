@@ -36,7 +36,7 @@ public class EnemyScript : MonoBehaviour
     void Update()
     {
         // boolean can be set by other scripts
-        if (health == 0)
+        if (health <= 0)
         {
             // generate explosion
             Instantiate (explosionPrototype , transform.position , transform.rotation);
