@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PoolMummies : MonoBehaviour
 {
-    public static int num = 15;
+    public static int num = 20;
     public GameObject prefab;
     static GameObject[] items;
 

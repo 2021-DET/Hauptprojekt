@@ -8,7 +8,7 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     // public boolean for the status of the enemy
-    public int health = 1;
+    private int hp;
     // reference to the player
     GameObject player;
     // speed value
@@ -20,34 +20,32 @@ public class EnemyScript : MonoBehaviour
     // reference to explosion object
     public GameObject explosionPrototype;
     // reference to the score object
+    public int health;
     GameObject score;
     public int vision = 15;
+    public AudioClip expl;
 
     void Start()
     {
-        // initialize
+        hp = health;
         rb = this.GetComponent<Rigidbody>();
-        // find the game object for the UI
-        //score = GameObject.FindGameObjectWithTag("Canvas") as GameObject;
-        // find the player game object
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
         // boolean can be set by other scripts
-        if (health <= 0)
+        if (hp <= 0)
         {
             // generate explosion
-            Instantiate (explosionPrototype , transform.position , transform.rotation);
+            GameObject explosion = Instantiate (explosionPrototype , transform.position , transform.rotation);
+            explosion.GetComponent<AudioSource>().PlayOneShot(expl);
             if (player != null)
             {
-                // increase score value
-                //score.GetComponent<ScoreScript>().scoreValue++;
                 player.GetComponent<PlayerScript>().score++;
             }
-            // delete the enemy game object immediately
             this.gameObject.SetActive(false);
+            hp = health;
         }
 
         // debug
@@ -62,6 +60,11 @@ public class EnemyScript : MonoBehaviour
 
         // set rotation
         transform.rotation = Quaternion.Slerp(transform.rotation, playerRotation, rotationSpeed * Time.deltaTime);
+    }
+
+    public void takeDamage()
+    {
+        hp--;
     }
     private void FixedUpdate()
     {

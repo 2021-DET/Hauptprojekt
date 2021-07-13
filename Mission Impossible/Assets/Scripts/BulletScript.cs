@@ -14,7 +14,7 @@ public class BulletScript : MonoBehaviour
         if (collision.transform.tag == "Enemy")
         {
             EnemyScript enemyScript = collision.transform.GetComponent<EnemyScript>();
-            enemyScript.health--;
+            enemyScript.takeDamage();
         }
         // delete the bullet after a small delay
         Destroy(this.gameObject, 0.1f);
