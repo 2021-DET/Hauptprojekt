@@ -57,6 +57,8 @@ public class PlayerScript : MonoBehaviour
     // attributes for ammunition
     public int ammo = 0;
     public int maxAmmo = 30;
+    public GameObject gameoverScreen;
+    public bool playerCanMove = true;
 
     void Start()
     {
@@ -71,66 +73,56 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X");
-        float mouseY = Input.GetAxisRaw("Mouse Y");
-        mouseY = Mathf.Clamp(mouseY, -35, 60);
-        rotVector = new Vector3(mouseY, mouseX, 0f) * rotSpeed;
-        //camTransform.Rotate(rotVector);
-        transform.Rotate(new Vector3(0f, rotVector.y, 0f));
-       
-        // animator code
-        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        if (playerCanMove)
         {
-            anim.SetInteger("Anim" , 1);
-            float xDir = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-            float yDir = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-            moveVector = new Vector3(xDir, 0, yDir);
-            transform.Translate(moveVector);
+            float mouseX = Input.GetAxisRaw("Mouse X");
+            float mouseY = Input.GetAxisRaw("Mouse Y");
+            mouseY = Mathf.Clamp(mouseY, -35, 60);
+            rotVector = new Vector3(mouseY, mouseX, 0f) * rotSpeed;
+            transform.Rotate(new Vector3(0f, rotVector.y, 0f));
 
-            /**
-            moveVector = new Vector3(xDir, 0, yDir).normalized;
-            float targetAngle = Mathf.Atan2(moveVector.x, moveVector.z) * Mathf.Rad2Deg + rotVector.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * moveVector;
-            transform.Translate(moveDir.normalized * speed * Time.deltaTime);
-            **/
-        
-            //TODO: Höhe und Tiefe von Kamera einschränken
-        }
-        else
-        {
-            anim.SetInteger("Anim" , 0);
-        }
-
-        // jump call
-        if (Input.GetButtonDown("Jump") && !(canJump))
+            // animator code
+            if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
             {
-                StartCoroutine( Jumping());
+                anim.SetInteger("Anim", 1);
+                float xDir = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+                float yDir = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+                moveVector = new Vector3(xDir, 0, yDir);
+                transform.Translate(moveVector);
+            }
+            else
+            {
+                anim.SetInteger("Anim", 0);
             }
 
-        // button clicked and player able to shoot
-        if (Input.GetButtonDown("Fire1") && (!canshoot))
-        {
-            StartCoroutine(FireShot());
-        }
+            // jump call
+            if (Input.GetButtonDown("Jump") && !(canJump))
+            {
+                StartCoroutine(Jumping());
+            }
 
-        if (Input.GetButtonDown("Fire2") && (!canshoot))
-        {
-            if (enoughAmmo())
+            // button clicked and player able to shoot
+            if (Input.GetButtonDown("Fire1") && (!canshoot))
             {
-                StartCoroutine(BurstShot());
-            } else
+                StartCoroutine(FireShot());
+            }
+
+            if (Input.GetButtonDown("Fire2") && (!canshoot))
             {
-                Debug.Log("nicht genug Schuss");
+                if (enoughAmmo())
+                {
+                    StartCoroutine(BurstShot());
+                }
+                else
+                {
+                    Debug.Log("nicht genug Schuss");
+                }
             }
         }
-
         // death on fall
         if (gameObject.transform.position.y <= -5f)
         {
-            Cursor.lockState = CursorLockMode.None;
-            SceneManager.LoadScene(nextMenu);
+            onDeath();
         }
     }
 
@@ -157,10 +149,18 @@ public class PlayerScript : MonoBehaviour
         // if player hits an enemy
         if (collision.collider.tag == "Enemy")
         {
-            // load menu for a new game
-            Cursor.lockState = CursorLockMode.None;
-            SceneManager.LoadScene(nextMenu);
+            onDeath();
         }
+    }
+
+    public void onDeath()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        TimerController.instance.EndTimer();
+        Time.timeScale = 0;
+        gameoverScreen.SetActive(true);
+        playerCanMove = false;
+
     }
 
     void Shoot()

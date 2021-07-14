@@ -26,8 +26,8 @@ public class GameStateScript : MonoBehaviour
     void Update()
     {
         // update text to score value
-        scoreValue.text = "Score: " + player.GetComponent<PlayerScript>().score.ToString();
-        goldValue.text = "Gold: " + player.GetComponent<PlayerScript>().gold.ToString();
-        ammoValue.text = "Salve Shots: " + player.GetComponent<PlayerScript>().ammo.ToString() + "/" + player.GetComponent<PlayerScript>().maxAmmo.ToString();
+        scoreValue.text = "SCORE: " + player.GetComponent<PlayerScript>().score.ToString();
+        goldValue.text = "GOLD: " + player.GetComponent<PlayerScript>().gold.ToString();
+        ammoValue.text = "SHOTGUN: " + player.GetComponent<PlayerScript>().ammo.ToString() + "/" + player.GetComponent<PlayerScript>().maxAmmo.ToString();
     }
 }

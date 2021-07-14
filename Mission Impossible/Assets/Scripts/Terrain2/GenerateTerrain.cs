@@ -29,7 +29,6 @@ public class GenerateTerrain : MonoBehaviour
             {
                 if (vertices[v].y > 1.5 && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 4))
                 {
-                    Debug.Log("Coins");
                     GameObject newCoin = PoolScript.getItem();
                     if (newCoin != null)
                     {
@@ -44,7 +43,6 @@ public class GenerateTerrain : MonoBehaviour
 
                 if (vertices[v].y > 2 && Random.Range(1, 80) < 3 && outsidePlayerRange(vertices[v], 4))
                 {
-                    Debug.Log("Ammo");
                     GameObject newAmmo = PoolAmmo.getAmmo();
                     if (newAmmo != null)
                     {
@@ -59,7 +57,6 @@ public class GenerateTerrain : MonoBehaviour
 
                 if (vertices[v].y > 1.5f && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 8))
                 {
-                    Debug.Log("Mummy");
                     GameObject newMummy = PoolMummies.getMummy();
                     if (newMummy != null)
                     {
@@ -69,13 +66,11 @@ public class GenerateTerrain : MonoBehaviour
                         newMummy.transform.position = mummyPos;
                         newMummy.SetActive(true);
                         items.Add(newMummy);
-                        Debug.Log("Spawned");
                     }
                 }
 
                 if (vertices[v].y > 2.5f && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 8))
                 {
-                    Debug.Log("Undead");
                     GameObject newUndead = PoolUndead.getUndead();
                     if (newUndead != null)
                     {
@@ -85,7 +80,6 @@ public class GenerateTerrain : MonoBehaviour
                         newUndead.transform.position = undeadPos;
                         newUndead.SetActive(true);
                         items.Add(newUndead);
-                        Debug.Log("Spawned");
                     }
                 }
 

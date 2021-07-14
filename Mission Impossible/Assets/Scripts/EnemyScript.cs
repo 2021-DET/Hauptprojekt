@@ -24,6 +24,7 @@ public class EnemyScript : MonoBehaviour
     GameObject score;
     public int vision = 15;
     public AudioClip expl;
+    public int points;
 
     void Start()
     {
@@ -42,7 +43,7 @@ public class EnemyScript : MonoBehaviour
             explosion.GetComponent<AudioSource>().PlayOneShot(expl);
             if (player != null)
             {
-                player.GetComponent<PlayerScript>().score++;
+                player.GetComponent<PlayerScript>().score +=  points;
             }
             this.gameObject.SetActive(false);
             hp = health;
