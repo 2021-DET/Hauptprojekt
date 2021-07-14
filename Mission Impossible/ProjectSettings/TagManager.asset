@@ -8,6 +8,7 @@ TagManager:
   - Hitter
   - FxTemporaire
   - Canvas
+  - GM
   layers:
   - Default
   - TransparentFX

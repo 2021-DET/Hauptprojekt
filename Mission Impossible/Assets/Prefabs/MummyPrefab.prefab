@@ -184,6 +184,7 @@ MonoBehaviour:
   health: 1
   vision: 20
   expl: {fileID: 8300000, guid: 763d890bfd968ef49b313e5618e827ba, type: 3}
+  points: 1
 --- !u!114 &1443111469701583287
 MonoBehaviour:
   m_ObjectHideFlags: 0
