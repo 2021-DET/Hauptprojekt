@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PoolUndead : MonoBehaviour
 {
-    public static int num = 5;
+    public static int num = 8;
     public GameObject prefab;
     static GameObject[] items;
 

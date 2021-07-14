@@ -27,8 +27,9 @@ public class GenerateTerrain : MonoBehaviour
 
             if (v % 3 == 0)
             {
-                if (vertices[v].y > 1.5 && Random.Range(1, 100) < 2 && outsidePlayerRange(vertices[v], 5))
+                if (vertices[v].y > 1.5 && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 4))
                 {
+                    Debug.Log("Coins");
                     GameObject newCoin = PoolScript.getItem();
                     if (newCoin != null)
                     {
@@ -41,8 +42,9 @@ public class GenerateTerrain : MonoBehaviour
                     }
                 }
 
-                if (vertices[v].y > 2 && Random.Range(1, 100) < 3 && outsidePlayerRange(vertices[v], 5))
+                if (vertices[v].y > 2 && Random.Range(1, 80) < 3 && outsidePlayerRange(vertices[v], 4))
                 {
+                    Debug.Log("Ammo");
                     GameObject newAmmo = PoolAmmo.getAmmo();
                     if (newAmmo != null)
                     {
@@ -55,8 +57,9 @@ public class GenerateTerrain : MonoBehaviour
                     }
                 }
 
-                if (vertices[v].y > 1.5f && Random.Range(1, 100) < 2 && outsidePlayerRange(vertices[v], 10))
+                if (vertices[v].y > 1.5f && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 8))
                 {
+                    Debug.Log("Mummy");
                     GameObject newMummy = PoolMummies.getMummy();
                     if (newMummy != null)
                     {
@@ -66,11 +69,13 @@ public class GenerateTerrain : MonoBehaviour
                         newMummy.transform.position = mummyPos;
                         newMummy.SetActive(true);
                         items.Add(newMummy);
+                        Debug.Log("Spawned");
                     }
                 }
 
-                if (vertices[v].y > 3f && Random.Range(1, 100) < 2 && outsidePlayerRange(vertices[v], 10))
+                if (vertices[v].y > 2.5f && Random.Range(1, 80) < 2 && outsidePlayerRange(vertices[v], 8))
                 {
+                    Debug.Log("Undead");
                     GameObject newUndead = PoolUndead.getUndead();
                     if (newUndead != null)
                     {
@@ -80,6 +85,7 @@ public class GenerateTerrain : MonoBehaviour
                         newUndead.transform.position = undeadPos;
                         newUndead.SetActive(true);
                         items.Add(newUndead);
+                        Debug.Log("Spawned");
                     }
                 }
 
@@ -109,7 +115,7 @@ public class GenerateTerrain : MonoBehaviour
                         items.Add(newRock);
                     }
                 }
-                if (vertices[v].y > 1.4 && Mathf.PerlinNoise((vertices[v].x + 2) / 10, (vertices[v].z + 2) / 10) * 10 > 5.6)
+                if (vertices[v].y > 1.4 && Mathf.PerlinNoise((vertices[v].x + 2) / 10, (vertices[v].z + 3) / 10) * 10 > 5.4)
                 {
                     GameObject newTreeStump = PoolTreeStump.getTreeStump();
                     if (newTreeStump != null)

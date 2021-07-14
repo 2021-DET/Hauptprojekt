@@ -17,7 +17,7 @@ public class PlayerScript : MonoBehaviour
     // jump value
     public float jumpPush = 10f;
     // fall value
-    public float extraGravity = -15f;
+    public float extraGravity = -20f;
     // vector for movement
     private Vector3 moveVector;
     // vector for rotation
@@ -49,7 +49,11 @@ public class PlayerScript : MonoBehaviour
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
     //public CharacterController controller;
-
+    private AudioSource audioSrc;
+    public AudioClip shotSound;
+    public AudioClip salveSound;
+    public AudioClip coinSound;
+    public AudioClip ammoSound;
     // attributes for ammunition
     public int ammo = 0;
     public int maxAmmo = 30;
@@ -60,6 +64,7 @@ public class PlayerScript : MonoBehaviour
         // initiate
         rd = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        audioSrc = GetComponent<AudioSource>();
         Cursor.lockState = CursorLockMode.Locked;
 
     }
@@ -135,7 +140,7 @@ public class PlayerScript : MonoBehaviour
             Vector3 power = rd.velocity;
             power.y = jumpPush;
             rd.velocity = power;
-            //rd.AddForce(new Vector3(0f, extraGravity, 0f));
+            rd.AddForce(new Vector3(0f, extraGravity, 0f));
     }
 
     IEnumerator Jumping()
@@ -166,6 +171,7 @@ public class PlayerScript : MonoBehaviour
         Rigidbody rd = bullet.GetComponent<Rigidbody>();
         // give bullet the force value
         rd.AddForce(firePoint.forward * bulletForce, ForceMode.Impulse);
+        audioSrc.PlayOneShot(shotSound);
     }
 
     void SalveShoot()
@@ -184,6 +190,7 @@ public class PlayerScript : MonoBehaviour
         rd1.velocity = rd1.transform.forward * bulletForce;
         rd2.velocity = rd2.transform.forward * bulletForce;
         rd3.velocity = rd3.transform.forward * bulletForce;
+        audioSrc.PlayOneShot(salveSound);
     }
 
     IEnumerator FireShot()
@@ -192,7 +199,7 @@ public class PlayerScript : MonoBehaviour
         canshoot = true;
         anim.SetTrigger("gunShot");
         Shoot();
-        yield return new WaitForSeconds(0.5f); // to stop rapid fire
+        yield return new WaitForSeconds(0.4f); // to stop rapid fire
         canshoot = false;
     }
 
@@ -203,8 +210,14 @@ public class PlayerScript : MonoBehaviour
         anim.SetTrigger("gunShot");
         SalveShoot();
         ammo -= 3;
-        yield return new WaitForSeconds(0.8f); // to stop rapid fire
+        yield return new WaitForSeconds(0.6f); // to stop rapid fire
         canshoot = false;
+    }
+
+    public void collectCoin(int value)
+    {
+        gold += value;
+        audioSrc.PlayOneShot(coinSound);
     }
 
     public void addAmmo(int amount)
@@ -216,6 +229,7 @@ public class PlayerScript : MonoBehaviour
         {
             this.ammo = maxAmmo;
         }
+        audioSrc.PlayOneShot(ammoSound);
     }
 
     private bool enoughAmmo()
