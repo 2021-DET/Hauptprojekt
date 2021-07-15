@@ -1,39 +1,36 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
+/**
+ * GM Script that handles the start of the game
+ * Countdown implemented here
+ */
 public class GameMaster : MonoBehaviour
 {
     public int countdownTime;
-    public GameObject gameplay;
+    public GameObject countdownUI;
     public TextMeshProUGUI countdownText;
-    private PlayerScript player;
+    public PlayerScript player;
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
-        StartCoroutine(CountdownToStart());
         player.playerCanMove = false;
+        StartCoroutine(CountdownToStart());
     }
     IEnumerator CountdownToStart()
     {
         while (countdownTime > 0)
         {
             countdownText.text = countdownTime.ToString();
-
             yield return new WaitForSecondsRealtime(1f);
-
             countdownTime--;
         }
-
         countdownText.text = "GO!";
-
         yield return new WaitForSecondsRealtime(0.5f);
         player.playerCanMove = true;
-        countdownText.gameObject.SetActive(false);
-        gameplay.SetActive(false);
-        TimerController.instance.BeginTimer();
+        countdownText.gameObject.SetActive(false); //deactivate Countdown Text
+        countdownUI.SetActive(false); //deactivate Countdown UI
+        TimerController.instance.BeginTimer(); //begin timer UI
     }
 }

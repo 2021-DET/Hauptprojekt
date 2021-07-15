@@ -541,28 +541,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   gold: 0
+  ammo: 0
+  maxAmmo: 30
   speed: 10
-  rotSpeed: 2
+  rotSpeed: 3
   jumpPush: 5
   extraGravity: -10
-  camTransform: {fileID: 2349383026918973534}
-  nextMenu: 1
+  bulletForce: 20
   firePoint: {fileID: 2754859659710724128}
   firePoint2: {fileID: 1592639802308525912}
   firePoint3: {fileID: 5849465540943579432}
+  gameoverScreen: {fileID: 0}
   bulletPrefab: {fileID: 7425482639152404081, guid: 57634e9bc6cb78e40bbba03de1c548e4, type: 3}
   bulletPrefab2: {fileID: 8661623642064653431, guid: 83db0b62643b9c24b970190e0f7fe4e5, type: 3}
-  bulletForce: 20
-  turnSmoothTime: 0.1
+  playerCanMove: 1
   shotSound: {fileID: 8300000, guid: 9f722c04b6ca70f4e86cacdef0bc237c, type: 3}
   salveSound: {fileID: 8300000, guid: c5dcd8b2f8ac9dc4eac1ff29fab978a2, type: 3}
   coinSound: {fileID: 8300000, guid: 68b81b86f1bbffb43a161e2aa70dee81, type: 3}
   ammoSound: {fileID: 8300000, guid: 9534b105c52d47f4dab0d9d4335a14df, type: 3}
   deathSound: {fileID: 8300000, guid: 545634aaa8bcea44b8a688dd7ddbc920, type: 3}
-  ammo: 0
-  maxAmmo: 30
-  gameoverScreen: {fileID: 0}
-  playerCanMove: 1
 --- !u!82 &1537696534107402895
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1075,6 +1072,7 @@ MonoBehaviour:
   scoreValue: {fileID: 2349383026629697759}
   goldValue: {fileID: 2349383026021252312}
   ammoValue: {fileID: 2349383026424688795}
+  player: {fileID: 0}
 --- !u!1 &2349383025844937742
 GameObject:
   m_ObjectHideFlags: 0

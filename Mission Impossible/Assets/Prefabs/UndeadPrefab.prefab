@@ -813,12 +813,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a438b8cfec76675479307c32dd3318a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.2
-  explosionPrototype: {fileID: 100002, guid: 6ecf76dc4f268d340b2666896a954bcc, type: 3}
+  player: {fileID: 2349383025610050525, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
   health: 4
+  speed: 3.2
   vision: 30
-  expl: {fileID: 8300000, guid: 763d890bfd968ef49b313e5618e827ba, type: 3}
   points: 5
+  explosionPrototype: {fileID: 100002, guid: 6ecf76dc4f268d340b2666896a954bcc, type: 3}
+  expl: {fileID: 8300000, guid: 763d890bfd968ef49b313e5618e827ba, type: 3}
 --- !u!1 &1636104895860753910
 GameObject:
   m_ObjectHideFlags: 0
