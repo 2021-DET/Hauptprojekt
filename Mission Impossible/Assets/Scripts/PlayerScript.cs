@@ -54,6 +54,7 @@ public class PlayerScript : MonoBehaviour
     public AudioClip salveSound;
     public AudioClip coinSound;
     public AudioClip ammoSound;
+    public AudioClip deathSound;
     // attributes for ammunition
     public int ammo = 0;
     public int maxAmmo = 30;
@@ -155,6 +156,7 @@ public class PlayerScript : MonoBehaviour
 
     public void onDeath()
     {
+        audioSrc.PlayOneShot(deathSound);
         Cursor.lockState = CursorLockMode.None;
         TimerController.instance.EndTimer();
         Time.timeScale = 0;
