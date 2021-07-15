@@ -1,0 +1,321 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'de' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49677
+Successfully changed project path to: C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 324.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hoang/Documents/Hauptprojekt/Mission Impossible/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4054 MB
+    Driver:   27.20.100.8682
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009055 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 225.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.385 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017968 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.971 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 5.220300 ms (FindLiveObjects: 0.818700 ms CreateObjectMapping: 0.370200 ms MarkObjects: 3.862300 ms  DeleteObjects: 0.165900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png
+  artifactKey: Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png using Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e5301289b50dccad50dc5e6ee21dd') in 0.171846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png
+  artifactKey: Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png using Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e714cd99bb64075d3f65f45eadc1c0') in 0.033542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png
+  artifactKey: Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png using Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef0feccb0335ec00d05ad480f0bb16') in 0.028418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path
+  artifactKey: Guid(3479073fd31da6b459dca8b36ea501ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path using Guid(3479073fd31da6b459dca8b36ea501ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fcd0162a3dee6f5b7bf6fa914928c2') in 0.012332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png
+  artifactKey: Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png using Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5215898e267bc3be1bc5279d1369db') in 0.080622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT
+  artifactKey: Guid(e4618fcd34c3e9a4c81c01b8339608b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT using Guid(e4618fcd34c3e9a4c81c01b8339608b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01bd2da37858bc374bc2ad07a0181d6') in 0.011610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures
+  artifactKey: Guid(ded40a3a8efaace4384304c2ffcbb186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures using Guid(ded40a3a8efaace4384304c2ffcbb186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c93b515917f727ecf3fa49008f4329d') in 0.012511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png
+  artifactKey: Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png using Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229c155bbfa62f1930d71454417c9266') in 0.031478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.768264 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat
+  artifactKey: Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat using Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf6e38eaa231cdd2a2f9b263f3d4bb2') in 1.126613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.349529 seconds.
+  path: Assets/Prefabs/SmartPlane.prefab
+  artifactKey: Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SmartPlane.prefab using Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eee5c28f13df11e133a6ed62abd3cb') in 0.195176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.399712 seconds.
+  path: Assets/Prefabs/SmartPlane.prefab
+  artifactKey: Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SmartPlane.prefab using Guid(a3142fdf48531bb4dbdd001e2004d778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf4523e5f08ee8a182f92d903e7cd19') in 0.037415 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.613 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 11.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3485.
+Total: 12.033600 ms (FindLiveObjects: 0.954300 ms CreateObjectMapping: 0.675700 ms MarkObjects: 10.332000 ms  DeleteObjects: 0.065800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.939020 seconds.
+  path: Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path_Basecolor.mat
+  artifactKey: Guid(6d43aedd3fe055c4f8d5a8e871078043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path_Basecolor.mat using Guid(6d43aedd3fe055c4f8d5a8e871078043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad65be5cb72f66399fe43975b2a6aa66') in 0.432817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 427.269095 seconds.
+  path: Assets/Sounds/Death sound in Minecraft.mp3
+  artifactKey: Guid(a500f57e9bfd83d42914e8ad83bc60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Death sound in Minecraft.mp3 using Guid(a500f57e9bfd83d42914e8ad83bc60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317c5b305d5c3f8c1c63de288b18729e') in 0.119508 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.666 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3491.
+Total: 5.038800 ms (FindLiveObjects: 0.725600 ms CreateObjectMapping: 0.327500 ms MarkObjects: 3.951900 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.179719 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c13095e3c76cc9dd9ff50973f3aeeb1') in 0.458374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.258571 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503d5b252f385d143f6010b74dcfac4d') in 0.080283 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.414 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.0 MB.
+System memory in use after: 161.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3496.
+Total: 4.637100 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.243400 ms MarkObjects: 3.968600 ms  DeleteObjects: 0.038400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.690860 seconds.
+  path: Assets/Sounds/Minecraft-Death.mp3
+  artifactKey: Guid(545634aaa8bcea44b8a688dd7ddbc920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Minecraft-Death.mp3 using Guid(545634aaa8bcea44b8a688dd7ddbc920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119fad7ba1499e7213d7d59cbfc6e286') in 0.252081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 302.926248 seconds.
+  path: Assets/Sounds/CollectCoins.mp3
+  artifactKey: Guid(68b81b86f1bbffb43a161e2aa70dee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/CollectCoins.mp3 using Guid(68b81b86f1bbffb43a161e2aa70dee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3945f001d829b285c40a2bc8228c334') in 0.229404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sounds/PickUpAmmunition.mp3
+  artifactKey: Guid(9534b105c52d47f4dab0d9d4335a14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/PickUpAmmunition.mp3 using Guid(9534b105c52d47f4dab0d9d4335a14df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0145e2c0a56912d07a777a86f2554') in 0.069509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Sounds/ShootShotgun.mp3
+  artifactKey: Guid(c5dcd8b2f8ac9dc4eac1ff29fab978a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ShootShotgun.mp3 using Guid(c5dcd8b2f8ac9dc4eac1ff29fab978a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd93732bc5973c5782dcdaa20fa88717') in 0.111976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002499 seconds.
+  path: Assets/Sounds/ShootGun.mp3
+  artifactKey: Guid(9f722c04b6ca70f4e86cacdef0bc237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ShootGun.mp3 using Guid(9f722c04b6ca70f4e86cacdef0bc237c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e808e01a0f3be5bb7defcfa5377be0') in 0.077795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.385893 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c86a36bc5af3120ed3b42c7333eb01') in 0.357235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.797466 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b65bf14693267eff30708587bdf2b3') in 0.095557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.238645 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8f9564a6584ac506c6392e4bfb2150') in 0.065230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.023485 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbf31232a2487414da21a575c2258c8') in 0.096563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.946898 seconds.
+  path: Assets/Prefabs/PlayerPrefab.prefab
+  artifactKey: Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerPrefab.prefab using Guid(a07d1a00e75e98a499b1f32ba158bc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0a9682143b27cb3c86f0985da42374') in 0.092314 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008344 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hoang\Documents\Hauptprojekt\Mission Impossible\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.665 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.1 MB.
+System memory in use after: 161.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3500.
+Total: 3.846700 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.285900 ms MarkObjects: 2.980500 ms  DeleteObjects: 0.039300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

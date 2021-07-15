@@ -1,33 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 /**
- * Script to organize the state of the game, score etc.
+ * Script to organize the GameState UI
  **/
 public class GameStateScript : MonoBehaviour
 {
-    GameObject player;
-    // current score
-    //public int scoreValue = 0;
-    // text in UI for score
     public TextMeshProUGUI scoreValue;
     public TextMeshProUGUI goldValue;
     public TextMeshProUGUI ammoValue;
-
-
-    void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player") as GameObject;
-        // initialize
-    }
+    public PlayerScript player;
 
     void Update()
     {
-        // update text to score value
+        //update the UI text
         scoreValue.text = "SCORE: " + player.GetComponent<PlayerScript>().score.ToString();
         goldValue.text = "GOLD: " + player.GetComponent<PlayerScript>().gold.ToString();
-        ammoValue.text = "SHOTGUN: " + player.GetComponent<PlayerScript>().ammo.ToString() + "/" + player.GetComponent<PlayerScript>().maxAmmo.ToString();
+        ammoValue.text = "SHOTGUN: " + player.GetComponent<PlayerScript>().ammo.ToString() + "/" + player.maxAmmo.ToString();
     }
 }
