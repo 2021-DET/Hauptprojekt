@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class TimerController : MonoBehaviour
@@ -13,7 +11,6 @@ public class TimerController : MonoBehaviour
 
     private TimeSpan timePlaying;
     private bool timerGoing;
-
     private float elapsedTime;
 
     private void Awake()
@@ -31,7 +28,6 @@ public class TimerController : MonoBehaviour
     {
         timerGoing = true;
         elapsedTime = 0f;
-
         StartCoroutine(UpdateTimer());
     }
 

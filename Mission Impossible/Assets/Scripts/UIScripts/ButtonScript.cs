@@ -1,19 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
-/*
- * very small script for buttons
- */ 
 public class ButtonScript : MonoBehaviour
 {
     public GameObject buttons;
     public GameObject bar;
     public Slider slider;
-
-    // method to load the main game
     public void PlayGame ()
     {
         SceneManager.LoadScene(1);

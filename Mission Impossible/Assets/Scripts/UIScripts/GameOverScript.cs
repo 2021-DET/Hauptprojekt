@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -11,7 +9,6 @@ public class GameOverScript : MonoBehaviour
     public TextMeshProUGUI timer;
     public TextMeshProUGUI gold;
     public TextMeshProUGUI score;
-    private GameStateScript gs;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI goldText;
     public TextMeshProUGUI scoreText;

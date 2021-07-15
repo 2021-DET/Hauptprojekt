@@ -179,12 +179,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a438b8cfec76675479307c32dd3318a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  explosionPrototype: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 3}
+  player: {fileID: 2349383025610050525, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
   health: 1
+  speed: 4
   vision: 20
-  expl: {fileID: 8300000, guid: 763d890bfd968ef49b313e5618e827ba, type: 3}
   points: 1
+  explosionPrototype: {fileID: 100006, guid: 4575df893a6e3f64a8283dee38413a34, type: 3}
+  expl: {fileID: 8300000, guid: 763d890bfd968ef49b313e5618e827ba, type: 3}
 --- !u!114 &1443111469701583287
 MonoBehaviour:
   m_ObjectHideFlags: 0
