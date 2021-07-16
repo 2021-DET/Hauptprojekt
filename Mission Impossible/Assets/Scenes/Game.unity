@@ -1934,9 +1934,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plane: {fileID: 3132849661037907705, guid: a3142fdf48531bb4dbdd001e2004d778, type: 3}
   player: {fileID: 1616478057}
-  planeSize: 8
-  halfTilesX: 4
-  halfTilesZ: 4
+  planeSize: 10
+  halfTilesX: 5
+  halfTilesZ: 5
 --- !u!1 &1914207103
 GameObject:
   m_ObjectHideFlags: 0
