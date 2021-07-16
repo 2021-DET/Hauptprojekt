@@ -563,6 +563,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165018888}
   m_CullTransparentMesh: 1
+--- !u!4 &176224919 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2349383025610050518, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
+  m_PrefabInstance: {fileID: 1677849631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &293953703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,11 +1788,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315239494}
   m_CullTransparentMesh: 1
---- !u!4 &1616478057 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2349383025829649141, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
-  m_PrefabInstance: {fileID: 1677849631}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1677849631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1933,7 +1933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plane: {fileID: 3132849661037907705, guid: a3142fdf48531bb4dbdd001e2004d778, type: 3}
-  player: {fileID: 1616478057}
+  player: {fileID: 176224919}
   planeSize: 10
   halfTilesX: 5
   halfTilesZ: 5
