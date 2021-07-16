@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PoolUndead : MonoBehaviour
 {
-    public static int num = 8;
+    public static int num = 7;
     public GameObject prefab;
     static GameObject[] items;
 

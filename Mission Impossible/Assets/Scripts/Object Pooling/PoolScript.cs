@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PoolScript : MonoBehaviour
 {
-    public static int num = 30;
+    public static int num = 20;
     public GameObject prefab;
     static GameObject[] items;
 
