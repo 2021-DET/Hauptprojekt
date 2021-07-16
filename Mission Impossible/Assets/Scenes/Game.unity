@@ -1847,6 +1847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 2349383025610050525, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2349383025834508063, guid: a07d1a00e75e98a499b1f32ba158bc52, type: 3}
       propertyPath: player
       value: 
@@ -1934,7 +1938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plane: {fileID: 3132849661037907705, guid: a3142fdf48531bb4dbdd001e2004d778, type: 3}
   player: {fileID: 1616478057}
-  planeSize: 8
+  planeSize: 10
   halfTilesX: 4
   halfTilesZ: 4
 --- !u!1 &1914207103

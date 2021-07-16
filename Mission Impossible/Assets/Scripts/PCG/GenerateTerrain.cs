@@ -5,14 +5,14 @@ public class GenerateTerrain : MonoBehaviour
 {
     private Mesh mesh;
     private Vector3[] vertices;
-    private Transform player;
+    private GameObject player;
     public int heightScale = 6;
     public float detailScale = 7.5f;
     List<GameObject> items = new List<GameObject>();
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
         mesh = this.GetComponent<MeshFilter>().mesh;
         vertices = mesh.vertices;
         int vlength = vertices.Length;
@@ -42,9 +42,9 @@ public class GenerateTerrain : MonoBehaviour
 
     private bool outsidePlayerRange(Vector3 curPos, int sight)
     {
-        if (curPos.x > player.position.x + sight || curPos.x < player.position.x - sight)
+        if (curPos.x > player.transform.position.x + sight || curPos.x < player.transform.position.x - sight)
         {
-            if (curPos.z > player.position.z + sight || curPos.z < player.position.z - sight)
+            if (curPos.z > player.transform.position.z + sight || curPos.z < player.transform.position.z - sight)
             {
                 return true;
             }

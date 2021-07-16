@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PoolRock : MonoBehaviour
 {
-    public static int num = 25;
+    public static int num = 15;
     public GameObject prefab;
     static GameObject[] items;
 
